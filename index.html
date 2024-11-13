@@ -20,7 +20,8 @@
 
 
     <!--cdn icon -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
 
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
@@ -30,17 +31,19 @@
 
     <!-- custom css/js -->
     <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/responsive-style.css">
 
 
 
 
 </head>
 
-<body>
-    <!-- nav menu -->
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="75">
+
+    <!-- nav menu section -->
     <header class="header_wrapper">
-        <nav class="navbar navbar-expand-lg fixed-top nav-men" id="#navbar">
-            <div class="container">
+        <nav class="navbar navbar-expand-lg fixed-top navbar-m" id="#navbar">
+            <div class="container navbar-nav-scroll">
 
                 <!-- logo -->
                 <img src="images/logo_CARES.png" alt="log" class="img-logo">
@@ -59,93 +62,143 @@
 
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown-About" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
+                                data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside">
                                 About Us
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown-About">
                                 <li><a class="dropdown-item" href="#about-scheme">About-Scheme</a></li>
-                                <li><hr class="dropdown-divider"></li>
-                                <li><a class="dropdown-item" href="#wired-internet-scheme-for-ict-laboratoryin-schools-in-the-state-of-goa">About
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item"
+                                        href="#wired-internet-scheme-for-ict-laboratoryin-schools-in-the-state-of-goa">About
                                         Wired Internet Scheme</a></li>
-                                        <li><hr class="dropdown-divider"></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
                                 <li><a class="dropdown-item" href="#mhaji-lab-bari-lab-the-goa-state">About Mhaji Lab
                                         BAri Lab</a></li>
-                                        <li><hr class="dropdown-divider"></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
                                 <li><a class="dropdown-item"
                                         href="#goy-mukhya-mantri-prashikshanarthi-yojana-gmmpy/">About Goy Mukhya <br>
                                         Mantri Prashikshanarthi<br>
                                         Yojana (Gmmpy) - Internship Scheme</a></li>
-                                        <li><hr class="dropdown-divider"></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
                                 <li><a class="dropdown-item" href="#/know-our-team/">Know Our Team</a></li>
-                                <li><hr class="dropdown-divider"></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
                                 <li><a class="dropdown-item" href="#/know-our-team/">FAQ</a></li>
                             </ul>
                         </li>
 
-                        
 
-
-                     
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown-About" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown-Competition" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside">
                                 Resources
                             </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown-About">
-                                <li><a class="dropdown-item" href="#something">Curriculum</a></li>
-                                <li><hr class="dropdown-divider"></li>
-                                <li><a class="dropdown-item" href="#som">Gallery </a></li>
-                                <li><hr class="dropdown-divider"></li>
-                                <li><a class="dropdown-item" href="#aaa">Join Us</a></li>
-                                <li><hr class="dropdown-divider"></li>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown-Competition">
+                                <li><a class="dropdown-item" href="#about-scheme">Competition</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Gallery </a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Join Us</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
                                 <li><a class="dropdown-item" href="#">Tenders </a></li>
-                                <li><hr class="dropdown-divider"></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
                                 <li><a class="dropdown-item" href="#">Software Installations </a></li>
-                                <li><hr class="dropdown-divider"></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
                                 <li><a class="dropdown-item" href="#">Revised Ict Curriculum </a></li>
-                                <li><hr class="dropdown-divider"></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
                                 <li><a class="dropdown-item" href="#">Class Vi Regular </a></li>
-                                <li><hr class="dropdown-divider"></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
                                 <li><a class="dropdown-item" href="#">Class Vi-Vii Elective</a></li>
-                                <li><hr class="dropdown-divider"></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
                                 <li><a class="dropdown-item" href="#">Class Vii Regular</a></li>
-                               
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Student-teacher Creativity</a></li>
                             </ul>
                         </li>
+
 
 
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown-About" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                No Name
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown-Academics" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside">
+                                Academics
                             </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown-About">
-                                <li><a class="dropdown-item" href="#">Goa Educational Stack</a></li>
-                                <li><hr class="dropdown-divider"></li>
-                                <li><a class="dropdown-item" href="#">Infrastructure</a></li>
-                                <li><hr class="dropdown-divider"></li>
-                                <li><a class="dropdown-item" href="#">Competition</a></li>
-                                <li><hr class="dropdown-divider"></li>
-                                <li><a class="dropdown-item" href="#">Edu-Tech Products</a></li>
-                                <li><hr class="dropdown-divider"></li>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown-Academics">
                                 <li><a class="dropdown-item" href="#">Capacity Building</a></li>
-                                <li><hr class="dropdown-divider"></li>
-                                <li><a class="dropdown-item" href="#">BootCamps</a></li>
-                                <li><hr class="dropdown-divider"></li>
-                                <li><a class="dropdown-item" href="#">Internship Programs</a></li>
-                                <li><hr class="dropdown-divider"></li>
-                                <li><a class="dropdown-item" href="#">Students Creativity</a></li>
-                                <li><hr class="dropdown-divider"></li>
-                                <li><a class="dropdown-item" href="#">Gyan Videos</a></li>
-                                <li><hr class="dropdown-divider"></li>
-                                <li><a class="dropdown-item" href="#">Big Impact Story</a></li>
-                                <li><hr class="dropdown-divider"></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#"> Lab Infrastructure</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Boot Camps</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Competitions</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Student Creativity</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Gyan Bytes</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+
+                                <li><a class="dropdown-item" href="#">Big Impact Stories</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Edu Tech Products</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
                                 <li><a class="dropdown-item" href="#">Conferences and Exhibitions</a></li>
-                                
-                                
-                               
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Intership Programs</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Goa Educational Stack</a></li>
                             </ul>
                         </li>
+
+
+
+                       
 
 
                         <li class="nav-item">
@@ -156,21 +209,23 @@
                             <a class="nav-link" href="#circulars-and-orders"> Circulars & Orders</a>
                         </li>
 
-                        <!-- <li class="nav-item">
-                            <a class="nav-link" href="#faq">FAQ</a>
-                        </li> -->
+                       
 
-                        
+
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown-About" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown-Help-Desk" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside">
                                 Help Desk
                             </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown-About">
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown-Help-Desk">
                                 <li><a class="dropdown-item" href="#about-scheme">Help Desk User Guide </a></li>
-                                <li><hr class="dropdown-divider"></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
                                 <li><a class="dropdown-item" href="#"> Help Desk User Video</a></li>
-                                <li><hr class="dropdown-divider"></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
                                 <li><a class="dropdown-item" href="#">Ict Equipment Maintenance</a></li>
                             </ul>
                         </li>
@@ -185,11 +240,6 @@
             </div>
         </nav>
     </header>
-
-
-
-
-
 
     <!-- offcanvase menu -->
 
@@ -223,9 +273,434 @@
 
 
 
-    <div style="margin-bottom: 800px;"></div>
 
 
+
+
+    <!-- banner section with slider -->
+    <section class="banner_wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-lg-6">
+                    <h1>Coding And Robotics Education in Schools Scheme</h1>
+                    <h2 class="para-mission">Mission to develop Computational & <b>Design</b>
+                        <br> Thinking skills along with <br>
+                        programming integrated into the school <br>
+                        level education for the State of Goa.<br>
+                    </h2>
+                    <button type="button" class="btn btn-banner btn-lg">Elective curriculum details 2024-2025
+                        <i class="bi bi-person-arms-up"></i>
+                    </button>
+                </div>
+
+                <div class="col-md-6 col-lg-6">
+                    <div class="card banner-card">
+                        <div class="card-body">
+                            "Education is the most powerful weapon which you can use to change the world." <br>
+                            <b>-Nelson Mandela</b>
+                        </div>
+                    </div>
+
+
+
+                    <!-- CarouselSlider -->
+
+                    <div class="carousel-slider1">
+                        <div id="carouselslidercontrols" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner custom-slider1">
+                                <div class="carousel-item active">
+                                    <img src="images/header-slider/A3- Goa Educational Stack-1.jpg"
+                                        class="d-block carousel-image" alt="..." onclick="openModal(this)">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="images/header-slider/BuddyTeachers_TFG1.jpg" class="d-block carousel-image"
+                                        alt="..." onclick="openModal(this)">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="images/header-slider/Artificial.png" class="d-block carousel-image"
+                                        alt="..." onclick="openModal(this)">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="images/header-slider/Untitled design.png" class="d-block carousel-image"
+                                        alt="..." onclick="openModal(this)">
+                                </div>
+                            </div>
+
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselslidercontrols"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselslidercontrols"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+
+
+                    <!-- <img src="images/BuddyTeachers_TFG1.jpg" alt="" class="img-bk-teacher " />
+                                <img src="images/Blender-Nation-Thon-TalukaLevel-13.jpg" alt="" class="img-bk-std" />
+                                <img src="images/hero-1-circle-3.png" alt="" class="img-bk-circle-1" />
+                                <img src="images/hero-1-circle-4.png" alt="" class="img-bk-circle-2" /> -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Full-Size Image Modal -->
+    <div class="modal fade text-center" id="imageModalCarousel" aria-labelledby="imageModalLabel" tabindex="-1"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="text-center" id="imageModalLabel">Cares</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <img id="modalImageslider" src="" class="img-fluid" alt="Full-size view">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <!-- Details  Elective Curriculum  Section-->
+
+    <section class="elective-curriculum">
+        <div class="container">
+            <div class="row">
+            <!-- 
+                      <div class="col-sm-12 text-center">
+                        <span class="mb-3"></span>
+                        <h2></h2>
+                      
+                </div> -->
+            <div class="row justify-content-between ">
+                <h2 class="text-center">Elective Curriculum</h2>
+                <div class="col-lg-5 col-md-4 mt-5 d-inline">
+                    <button type="button" class="btn-main btn-lg">Student Batches for Elective Curriculum for AY
+                        2024-25</button>
+                </div>
+                <div class="col-lg-4 col-md-4 mt-5 d-inline">
+                    <button type="button" class="btn-main btn-md">Details of Sessions at Lead Schools</button>
+                </div>
+                <div class="col-lg-3 col-md-4 mt-5 d-inline">
+                    <button type="button" class="btn-main btn-md">Elective Curriculum Details <i
+                            class="bi bi-person-arms-up"></i></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+
+
+
+
+    <!-- Latest-News Section  -->
+    <section class="latest-news">
+        <div class="container">
+            <div class="row justify-content-center">
+    
+                <h2 class="text-center">Latest News</h2>
+                <div class="card card-ltnews">
+                    <div class="card-body">
+                        <ul class="nav nav-tabs nav-pills">
+    
+                            <li class="nav-item" role="presentation">
+                                <a class="nav-link active" data-bs-toggle="pill" id="event-tab" data-bs-target="#events"
+                                    aria-controls="evnts" aria-selected="true">Events</a>
+                            </li>
+    
+    
+                            <li class="nav-item" role="presentation">
+                                <a class="nav-link " data-bs-toggle="pill" id="upcoming-tab" data-bs-target="#upcoming"
+                                    aria-controls="upcoming" aria-selected="false">Up Comeing News</a>
+                            </li>
+    
+<!--     
+                            <li class="nav-item" role="presentation">
+                                <a class="nav-link " data-bs-toggle="pill" id="upcoming-events-tab"
+                                    data-bs-target="#upcoming-envents" aria-controls="upcoming-envents"
+                                    aria-selected="false">Up Comeing News</a>
+                            </li> -->
+    
+    
+                        </ul>
+                    </div>
+    
+    
+                    <div class="container tab-content">
+    
+                        <div class="tab-pane fade show active" id="events" role="tabpanel" aria-labelledby="event-tab">
+                           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores, voluptatibus?</p>
+                           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores, voluptatibus?</p>
+                        </div>
+    
+
+                        <div class="tab-pane fade" id="upcoming" role="tabpanel" aria-labelledby="upcoming-tab">
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores, voluptatibus?</p>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores, voluptatibus?</p>
+                            <p>chinmay</p>
+                        </div>
+
+<!--     
+                        <div class="tab-pane fade" id="upcoming-envents" role="tabpanel"
+                            aria-labelledby="upcoming-events-tab">
+                            <p>ckjaskj</p>
+                        </div> -->
+    
+                    </div>
+    
+                </div>
+    
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+    <br><br><br><br><br><br><br><br>
+
+
+    <div style="margin-bottom: 1800px;"></div>
+
+
+
+
+
+
+
+
+
+    <!--Footer Section-->
+
+
+    <footer id="main-footer" class="footer-section-bk">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-6 col-lg-3">
+                    <h6 class="footer-sub-heading mb-4 pt-5">About Us</h6>
+
+
+                    <ul class="list-unstyled mb-0  text-link">
+                        <li class="mb-2"><i class="fa fa-chevron-right"></i>&nbsp;&nbsp;<a href="#"
+                                class="text-link">About the CARES Scheme</a>
+                        </li>
+
+                        <li class="mb-2"><i class="fa fa-chevron-right"></i>&nbsp;&nbsp;<a href="#"
+                                class="text-link">The Wired Internet Scheme For ICT Laboratory
+                            </a>
+                        </li>
+
+                        <li class="mb-2"><i class="fa fa-chevron-right"></i>&nbsp;&nbsp;<a href="#"
+                                class="text-link">“Mhaji Lab, Bari Lab”—The Goa State Best ICT Laboratory Award
+                                Scheme</a>
+                        </li>
+
+                        <li class="mb-2"><i class="fa fa-chevron-right"></i>&nbsp;&nbsp;<a href="#"
+                                class="text-link">Know our Teams</a>
+                        </li>
+
+                        <li class="mb-2"><i class="fa fa-chevron-right"></i>&nbsp;&nbsp;<a href="#"
+                                class="text-link">Logo Usage Guidlines</a>
+                        </li>
+
+                        <li class="mb-2"><i class="fa fa-chevron-right"></i>&nbsp;&nbsp;<a href="#"
+                                class="text-link">Logo Creation Process</a>
+                        </li>
+                    </ul>
+                </div>
+
+
+
+                <div class="col-md-6  col-lg-3">
+                    <h6 class="footer-sub-heading mb-4 pt-5">Help</h6>
+
+                    <ul class="list-unstyled mb-0  text-link">
+                        <li class="mb-2"><i class="fa fa-chevron-right"></i>&nbsp;&nbsp;<a href="#"
+                                class="text-link">Reports - Documents</a>
+                        </li>
+
+                        <li class="mb-2"><i class="fa fa-chevron-right"></i>&nbsp;&nbsp;<a href="#"
+                                class="text-link">Latest Update
+                            </a>
+                        </li>
+
+                        <li class="mb-2"><i class="fa fa-chevron-right"></i>&nbsp;&nbsp;<a href="#"
+                                class="text-link">FAQ</a>
+                        </li>
+
+                        <li class="mb-2"><i class="fa fa-chevron-right"></i>&nbsp;&nbsp;<a href="#"
+                                class="text-link">Help Desk</a>
+                        </li>
+
+                        <li class="mb-2"><i class="fa fa-chevron-right"></i>&nbsp;&nbsp;<a href="#"
+                                class="text-link">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+
+
+
+                <div class="col-md-6  col-lg-3">
+                    <h6 class="footer-sub-heading mb-4 pt-5">Reach Us at</h6>
+                    <div class="map">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d123015.12027955487!2d73.82887900000001!3d15.526198000000003!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bbfc11ddea9d07f%3A0xcbff8e3d74de6ca0!2sDirectorate%20of%20Technical%20Education!5e0!3m2!1sen!2sin!4v1731228607730!5m2!1sen!2sin"
+                            width="250" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+
+                <div class="col-md-6  col-lg-3">
+                    <h6 class="footer-sub-heading mb-4 pt-5">Follow us on</h6>
+                    <div class="pt-0  d-flex justify-content-start ">
+                        <a href="https://facebook.com/" class="text-white" target="_blank">
+                            <i class="fab bi bi-facebook me-2"></i>
+                        </a>
+                        <a href="https://www.google.co.in/" class="text-white" target="_blank">
+                            <i class="fab bi bi-google me-2"></i>
+                        </a>
+                        <a href="https://twitter.com/" class="text-white" target="_blank">
+                            <i class="fab bi bi-twitter me-2"></i>
+                        </a>
+                        <a href="https://twitter.com/" class="text-white" target="_blank">
+                            <i class="fab bi bi-instagram me-2"></i>
+                        </a>
+                        <a href="https://twitter.com/" class="text-white" target="_blank">
+                            <i class="fab bi bi-pinterest"></i>
+                        </a>
+                    </div>
+                </div>
+
+
+
+                <!-- second row footer -->
+
+
+                <div class="row">
+
+                    <div class="col-md-6  col-lg-3">
+                        <h6 class="footer-sub-heading mb-4 pt-5">Reach Us at</h6>
+                        <p class="text-link">
+                            <a href="" target="_blank" title="read pdf">NOTICE OF EXPRESSION OF INTEREST
+                                (EOI) FOR EMPANELMENT FOR PROVIDING CATERING SERVICES UNDER RULE 154/155 OF GFR,
+                                2017</a>
+                        </p>
+                    </div>
+
+                    <div class="col-md-6  col-lg-3">
+                        <h6 class="footer-sub-heading mb-4 pt-5">Policy
+                        </h6>
+
+                        <ul class="list-unstyled mb-0  text-link">
+                            <li class="mb-2"><i class="fa fa-chevron-right"></i>&nbsp;&nbsp;<a href="#"
+                                    class="text-link">Privacy Policy</a>
+                            </li>
+
+                            <li class="mb-2"><i class="fa fa-chevron-right"></i>&nbsp;&nbsp;<a href="#"
+                                    class="text-link">Copyright Policy
+                                </a>
+                            </li>
+
+                            <li class="mb-2"><i class="fa fa-chevron-right"></i>&nbsp;&nbsp;<a href="#"
+                                    class="text-link">Disclaimer</a>
+                            </li>
+
+                            <li class="mb-2"><i class="fa fa-chevron-right"></i>&nbsp;&nbsp;<a href="#"
+                                    class="text-link">Terms
+                                </a>
+                            </li>
+
+                        </ul>
+                    </div>
+
+
+
+                    <div class="col-md-6  col-lg-3">
+                        <h6 class="footer-sub-heading mb-4 pt-5">Public Grievance</h6>
+                        <p class="text-link"><a
+                                href="https://goaonline.gov.in/Appln/Uil/DeptServices?__DocId=PGR&__ServiceId=PGR26"
+                                class="">Register Grievance</a>
+                        </p>
+                    </div>
+
+
+
+                    <div class="col-md-6  col-lg-3">
+                        <h6 class="footer-sub-heading mb-4 pt-5">Contact us</h6>
+
+                        <h6>Directorate of Technical Education, Goa</h6>
+                        <p class="text-link">DTE Building, Alto-Porvorim, Bardez, Goa,<span>PIN:</span>403521.
+                        </p>
+
+                        <h6>Phone Number</h6>
+                        <p class="text-link"><a href="tel:+91-832-2413571" class="hv">+91-832-2413571</a>
+                        </p>
+                        <p class="text-link"><span>FAX:</span><a href="tel:+91-832-2413572"
+                                class="hv">+91-832-2413572</a>
+                        </p>
+
+                        <h6>Email</h6>
+                        <p class="text-link "><span>Administration:</span> <br> <a href="mailto:caresadmin@gao.in"
+                                target="_blank">cares-admin[at]goa[dot]gov[dot]in</a>
+                        </p>
+                        <p class="text-link"><span>Technical Assistance:</span> <br> <a
+                                href="mailto:pmu.admin@goa.gov.in" target="_blank">pmu.admin[at]goa[dot]gov[dot]in</a>
+                        </p>
+
+                        <h6>Timing</h6>
+                        <p class="text-link">09:30 To 17:45 Hrs IST
+                            (Monday-Friday).
+                        </p>
+                    </div>
+                </div>
+                <!-- Second row end -->
+
+
+
+                <!-- copyright -->
+                <div class="col-lg-12 col-md-12 ms-3">
+                    <hr class="hr-copyright">
+                    <div class="copyright-text text-lg-centre text-center mb-3 mb-lg-0">
+                        <p class="mb-0 text-link">Copyright © 2023 <a href="#">PMU-DTE, </a>Goa. All Rights Reserved.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        </div>
+    </footer>
+
+
+
+
+    <!-- Scroll Button -->
+    <!-- <div class="scroll-button">
+        <a href="#home" class="fas fa-arrow-up"></a>
+    </div> -->
 
 
 
@@ -238,10 +713,12 @@
         crossorigin="anonymous"></script>
 
 
+
+
     <!-- bootstrap link js bundle and popper js -->
     <!-- <script src="bootstrap-5.1.3-dist/js/bootstrap.bundle.js"></script> -->
 
     <!-- custom js -->
-    <link rel="stylesheet" href="JS/main.js">
+    <script src="JS/main.js"></script>
 
 </html>

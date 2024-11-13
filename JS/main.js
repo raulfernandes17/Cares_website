@@ -1,5 +1,5 @@
 // header scroll
-let navbar = document.querySelector(".nav-m");
+let navbar = document.querySelector(".navbar-m");
 let scrollBtn = document.querySelector(".scroll-button a");
 let val;
 
@@ -18,17 +18,29 @@ window.onscroll = function () {
 
 
 
-// nav hide small screen
-let navBar = document.querySelectorAll(".nav-link, .main-btn ");
+
+
+// nav hide small screen & open dropdown menu
+
+let navBar = document.querySelectorAll(".nav-link, .main-btn");
 let navCollapse = document.querySelector(".navbar-collapse.collapse");
+
 navBar.forEach(function (a) {
-  a.addEventListener("click", function () {
-    navCollapse.classList.remove("show");
-  })
-})
+  a.addEventListener("click", function (event) {
+    // Check if the clicked element is inside a dropdown
+    if (!a.classList.contains("dropdown-toggle") && !a.closest(".dropdown-menu")) {
+      navCollapse.classList.remove("show");
+    }
+  });
+});
 
 
 
+// onclick openModal carsoul img
 
-
-
+function openModal(imgElement) {
+  const modalImageslider = document.getElementById("modalImageslider");
+  modalImageslider.src = imgElement.src;  // Set modal image source to clicked image's source
+  const imageModalCarousel = new bootstrap.Modal(document.getElementById('imageModalCarousel'));
+  imageModalCarousel.show();
+}
