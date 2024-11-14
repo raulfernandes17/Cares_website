@@ -182,7 +182,7 @@ p {
 
 .header_wrapper .navbar-toggler:hover {
     color: var(--primary-color);
-    transform: skewX(40deg);
+    /* transform: skewX(40deg); */
 
 }
 
@@ -221,6 +221,7 @@ p {
     left: 0;
     width: 100%;
     background-color: var(--bg-white);
+    box-shadow: 0px 0px 15px 0px rgb(119, 119, 119);
 }
 
 .header-scrolled .nav-item .nav-link.active,
@@ -408,8 +409,23 @@ p {
 }
 
 
+/* Follow Us Section */
 
+.follow-us{
+    justify-content: center;
+    margin-top: 150px;
+}
 
+/* socailmedia-icon */
+.follow-us .fab {
+    color: rgb(255, 255, 255);
+    background: #285DA1;
+    padding: 15px;
+    border-radius: 5px;
+    height: 60px;
+    width: 60px;
+    font-size: 30px !important;
+}
 
 
 
@@ -431,12 +447,18 @@ p {
 }
 
 /* ul li link */
-.footer-section-bk .text-link {
+.footer-section-bk .text-link  {
     font-family: var(--primary-font);
     font-size: 16px;
     font-weight: 400;
     color: #FFFFFF !important;
 }
+
+
+.footer-section-bk  .text-link:hover {
+    color: var(--secondry-color) !important;
+}
+
 
 .footer-section-bk h6 {
     font-weight: 900 !important;
