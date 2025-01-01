@@ -512,8 +512,8 @@ p {
 .fa-caret-left,
 .fa-caret-right {
     padding: 10px;
-    height: 60px;
-    width: 60px;
+    height: 50px;
+    width: 50px;
     background-color: rgba(3, 3, 3, 0.3);
     border-radius: 4px;
     display: flex;
