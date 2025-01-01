@@ -78,7 +78,7 @@ h3 {
     font-family: var(--primary-font);
     font-size: 40px;
     font-weight: 700;
-    color: var(--primary-text);
+    color: var(--primary-text-color);
     text-transform: capitalize;
 }
 
@@ -265,7 +265,7 @@ p {
     height: auto;
     min-height: 650px;
     background-color: var(--bg-light-gray);
-    padding: 280px 100px 250px;
+    padding: 280px 100px 150px;
     z-index: -1;
     opacity: 0.9;
 }
@@ -335,7 +335,24 @@ p {
     position: absolute;
     top: 180px;
     margin-right: 9%;
+    animation: banner-card 2.5s cubic-bezier(0, 1.69, 1, 1) infinite;
 }
+
+
+/* Float Up and Down Animation */
+@keyframes banner-card {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(30px);
+    }
+}
+
+
 
 .banner_wrapper .btn-banner {
     display: inline-block;
@@ -358,13 +375,13 @@ p {
 .banner_wrapper .carousel-slider1 {
     width: 550px;
     margin-top: 40px;
-    
+
 }
 
 .banner_wrapper .custom-slider1 img {
     height: 300px;
-    width: 100%; 
-    cursor: pointer; 
+    width: 100%;
+    cursor: pointer;
 }
 
 
@@ -372,6 +389,7 @@ p {
 .modal-body {
     position: relative;
 }
+
 .btn-close {
     position: absolute;
     top: 10px;
@@ -388,9 +406,9 @@ p {
 
 /* Elective Curriculum Section */
 
-.elective-curriculum{
+.elective-curriculum {
     margin-top: 80px;
-   
+
 }
 
 
@@ -403,16 +421,20 @@ p {
     margin-top: 150px;
 }
 
-.card-ltnews{
+.card-ltnews {
     width: 80%;
     justify-content: center;
 }
 
 
+
+
+
+
 /* Follow Us Section */
 
-.follow-us{
-    justify-content: center;
+.follow-us {
+    /* justify-content: center; */
     margin-top: 150px;
 }
 
@@ -420,12 +442,160 @@ p {
 .follow-us .fab {
     color: rgb(255, 255, 255);
     background: #285DA1;
-    padding: 15px;
+    padding: 12px;
     border-radius: 5px;
+    height: 50px;
+    width: 50px;
+    font-size: 25px !important;
+}
+
+
+
+
+
+/* About Us Section */
+
+.about-section {
+    margin-top: 150px;
+}
+
+
+.about-section .text-center-heading {
+    text-align: center;
+    text-shadow: 0px 5px 5px #80808099;
+}
+
+
+
+.about-section .para-abt {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 10px;
+    /* text-shadow: 0px 1px 1px #555;  */
+    text-shadow: 0px 4px 4px #80808099;
+}
+
+.about-section .video-yutb {
+    width: 100%;
+    margin-right: 40px;
+}
+
+
+
+
+
+/* Achievements Section */
+
+.achievements-section {
+    margin-top: 150px;
+    width: 100%;
+}
+
+
+.achievements-section .ac-sc {
+    height: auto;
+    background-color: var(--bg-light-gray);
+    padding: 120px 100px 120px 100px; /*  top | right | bottom | left */
+}
+
+
+.achievements-section .cards-achev-algin {
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+
+
+/* owl carsoule left right icon */
+
+.fa-caret-left,
+.fa-caret-right {
+    padding: 10px;
     height: 60px;
     width: 60px;
-    font-size: 30px !important;
+    background-color: rgba(3, 3, 3, 0.3);
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+    font-size: 34px;
 }
+
+.owl-prev {
+    left: -60px;
+}
+
+.owl-next {
+    right: -60px;
+}
+
+.owl-prev,
+.owl-next {
+    position: absolute;
+    top: 300px;
+}
+
+.owl-stage {
+    margin: 0 auto;
+}
+
+
+/* owl carsoule dots  */
+
+.owl-dots {
+    position: absolute;
+    bottom: -30px;
+    left: 50%;
+    z-index: 1;
+}
+
+.owl-dot {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin: 0 5px;
+    background-color: #494848 !important;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.owl-dot.active {
+    background-color: var(--secondry-color) !important;
+
+}
+
+/* defult css owl carsoule */
+.owl-theme .owl-dots .owl-dot span {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -447,7 +617,7 @@ p {
 }
 
 /* ul li link */
-.footer-section-bk .text-link  {
+.footer-section-bk .text-link {
     font-family: var(--primary-font);
     font-size: 16px;
     font-weight: 400;
@@ -455,9 +625,10 @@ p {
 }
 
 
-.footer-section-bk  .text-link:hover {
+.footer-section-bk .text-link:hover {
     color: var(--secondry-color) !important;
 }
+
 
 
 .footer-section-bk h6 {

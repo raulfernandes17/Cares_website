@@ -34,6 +34,15 @@
         width: 42%;
     }
 
+
+    /* owl carsoule left right icon */
+    .owl-prev,
+    .owl-next {
+        top: 170px;
+    }
+
+
+
 }
 
 
@@ -126,6 +135,46 @@
 
 
 
+
+
+
+    /* Achievements Section */
+
+    .achievements-section {
+        margin-top: 150px;
+        width: 100%;
+    }
+
+
+    .achievements-section .ac-sc {
+        background-color: var(--bg-light-gray);
+        padding: 100px 100px 100px 100px;
+    }
+
+
+
+    /* owl carsoule left right icon */
+
+    .fa-caret-left,
+    .fa-caret-right {
+        height: 50px;
+        width: 50px;
+        font-size: 34px;
+    }
+
+    .owl-prev,
+    .owl-next {
+        top: 170px;
+    }
+
+    .owl-prev {
+        left: -70px;
+    }
+
+    .owl-next {
+        right: -70px;
+    }
+
 }
 
 
@@ -204,7 +253,59 @@
     }
 
 
+
+
+    /* about section button*/
+    .achievements-section .cards-achev-algin {
+        margin-bottom: 40px;
+        width: 100%;
+    }
+
+
+
+    /* Achievements Section- */
+
+    .achievements-section {
+        margin-top: 150px;
+        width: 100%;
+    }
+
+    .achievements-section .ac-sc {
+        padding: 60px 50px 50px;
+    }
+
+
+    .owl-dots {
+        bottom: -10px;
+        left: 25%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+ /* owl carsoule left right icon */
+
+ .fa-caret-left,
+ .fa-caret-right {
+     height: 40px;
+     width: 40px;
+     font-size: 28px;
+ }
+
+ .owl-prev {
+     left: -40px;
+ }
+
+ .owl-next {
+     right: -40px;
+ }
+
+
 }
+
+
+
 
 
 
