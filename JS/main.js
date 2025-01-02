@@ -56,6 +56,10 @@ $('.owl-carousel').owlCarousel({
     "<i class='fa fa-caret-left'></i>",
     "<i class='fa fa-caret-right'></i>"],
 
+  autoplay: true,               // Enable autoplay
+  autoplayTimeout: 3000,        // Set autoplay interval (3000ms = 3 seconds)
+  autoplayHoverPause: true,     // Pause autoplay on hover 
+  
   responsive: {
     0: {
       items: 1,
@@ -88,7 +92,5 @@ $('.owl-carousel').owlCarousel({
       items: 1,
     }
   }
-
-
 
 })

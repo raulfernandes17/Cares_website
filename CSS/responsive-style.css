@@ -13,7 +13,7 @@
 
 /* xl 1024 */
 @media (max-width:1024px) {
-
+    /* Banner Section */
     .banner_wrapper .carousel-slider1 {
         width: 420px;
         margin-top: 80px;
@@ -46,7 +46,14 @@
 }
 
 
+/* navbar container menu defult css changed */
+@media (min-width: 992px) {
+    .navbar-expand-lg {
+        flex-wrap: wrap;
+        justify-content: flex-start !important;
+    }
 
+}
 
 
 
@@ -277,11 +284,7 @@
 
 
     .owl-dots {
-        bottom: -10px;
-        left: 25%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        display: none;
     }
 
 
