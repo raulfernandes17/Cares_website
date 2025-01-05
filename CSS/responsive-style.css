@@ -42,7 +42,6 @@
     }
 
 
-
 }
 
 
@@ -141,10 +140,6 @@
 
 
 
-
-
-
-
     /* Achievements Section */
 
     .achievements-section {
@@ -181,6 +176,14 @@
     .owl-next {
         right: -70px;
     }
+    
+
+/* Footer Section */
+
+    .container, .container-md, .container-sm {
+        max-width: 800px !important;
+    }
+
 
 }
 
