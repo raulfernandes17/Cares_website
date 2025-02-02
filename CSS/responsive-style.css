@@ -13,6 +13,7 @@
 
 /* xl 1024 */
 @media (max-width:1024px) {
+
     /* Banner Section */
     .banner_wrapper .carousel-slider1 {
         width: 420px;
@@ -44,6 +45,23 @@
 
 }
 
+/* Card Section 21St Century*/
+
+.card-21st-century .font-card-21  {
+    width: 100%;
+    padding: 10px 0px 10px 0px;
+    /*  top | right | bottom | left */
+}
+
+.card-21st-century .card-21 {
+    height: 300px;
+    width: 100%;
+}
+
+
+
+
+
 
 /* navbar container menu defult css changed */
 @media (min-width: 992px) {
@@ -53,6 +71,12 @@
     }
 
 }
+
+
+
+
+
+
 
 
 
@@ -92,8 +116,6 @@
         top: 200px;
 
     }
-
-
 
 
 }
@@ -176,19 +198,40 @@
     .owl-next {
         right: -70px;
     }
-    
 
-/* Footer Section */
 
-    .container, .container-md, .container-sm {
+
+    /* Card  21st Century Section */
+
+    .card-21st-century .font-card-21 {
+        width: 100%;
+        padding: 10px 0px 0px 0px;
+        /*  top | right | bottom | left */
+    }
+
+    /* Car */
+
+    .card-21st-century .badge-title {
+        font-size: 14px;
+        padding: 5px 12px;
+        white-space: normal;
+        display: block;
+        max-width: 90%;
+        margin: 0 auto;
+    }
+
+
+
+    /* Footer Section */
+
+    .container,
+    .container-md,
+    .container-sm {
         max-width: 800px !important;
     }
 
 
 }
-
-
-
 
 
 
@@ -225,7 +268,7 @@
 
     h1 {
         font-size: 30px;
-        line-height: 60px;
+        line-height: 40px;
         padding-top: 25px;
     }
 
@@ -291,26 +334,44 @@
     }
 
 
- /* owl carsoule left right icon */
+    /* owl carsoule left right icon */
 
- .fa-caret-left,
- .fa-caret-right {
-     height: 40px;
-     width: 40px;
-     font-size: 28px;
- }
+    .fa-caret-left,
+    .fa-caret-right {
+        height: 40px;
+        width: 40px;
+        font-size: 28px;
+    }
 
- .owl-prev {
-     left: -40px;
- }
+    .owl-prev {
+        left: -40px;
+    }
 
- .owl-next {
-     right: -40px;
- }
+    .owl-next {
+        right: -40px;
+    }
 
+
+
+    /* Card  21st Century Section */
+    .card-21st-century .card-21 {
+        height: 400px;
+        width: 100%;
+  
+    }
+
+    .card-21st-century  .font-card-21{
+        font-size: 35px;
+    }
+
+
+    /* margin top all section 425 viewport */
+
+    .competion-section, .about-section, .follow-us, .card-21st-century{
+        margin-top: 75px;
+    }
 
 }
-
 
 
 
