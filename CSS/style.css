@@ -88,7 +88,7 @@ h6 {
     font-family: var(--primary-font);
     color: var(--primary-text-color);
     font-size: 24px;
-    font-weight: 600;
+    font-weight: 900;
 }
 
 
@@ -96,9 +96,23 @@ h6 {
 p {
     font-family: var(--primary-font);
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 500;
     color: var(--secondary-text-color);
 }
+
+
+
+/* hadeing font event page */
+
+.eventsec-hedaing {
+    font-size: 50px;
+    font-weight: 800;
+    font-family: var(--third-font);
+    margin-bottom: 45px;
+}
+
+
+
 
 
 /* btn green bk */
@@ -121,7 +135,15 @@ p {
 
 
 
+/* Common class */
 
+.commonspace-header {
+    margin-top: 280px;
+}
+
+.commonspace-footer {
+    margin-bottom: 280px;
+}
 
 
 
@@ -434,9 +456,9 @@ p {
     margin-top: 150px;
 }
 
-.cares-pmu-video .cares-pmu{
-    width: 100%; 
-    height: auto; 
+.cares-pmu-video .cares-pmu {
+    width: 100%;
+    height: auto;
 }
 
 
@@ -637,14 +659,28 @@ p {
     box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
 }
 
-.list-group-item.active {
-    /* border-left: 4px solid #0d6efd;
-    font-weight: bold; */
+.competion-section .link-list-grp {
+    color: var(--primary-text-color);
+}
+
+.competion-section .link-list-grp:hover {
+    color: var(--secondry-color);
+}
+
+
+
+/* Hover effect - Change left border and background */
+.competion-section .list-group-item {
+    transition: background-color 0.3s ease, color 0.3s ease;
+    border-left: 5px solid transparent;
+    -webkit-transition: transform 0.2s ease, color 0.2s ease, border-left 0.3s ease;
 }
 
 .list-group-item:hover {
-    /* text-decoration: underline; */
+    border-left: 5px solid;
+    color: var(--secondry-color);
 }
+
 
 
 .competion-section .view-more {
@@ -678,6 +714,8 @@ p {
 
 
 
+
+
 /* Card Section 21St Century*/
 
 .card-21st-century {
@@ -691,7 +729,7 @@ p {
     font-weight: 700;
     font-size: 40px;
     color: var(--primary-color);
-} 
+}
 
 .card-21st-century .card-21 {
     background-color: #EFF0F6;
@@ -700,13 +738,14 @@ p {
 }
 
 
-.card-21st-century .badge-title{
- display: inline-block;
-background-color:#F1277E ;
-color: #FFFFFF;
-display: inline-block;
-text-align: center;
-white-space: nowrap; /* Prevents text wrapping */
+.card-21st-century .badge-title {
+    display: inline-block;
+    background-color: #F1277E;
+    color: #FFFFFF;
+    display: inline-block;
+    text-align: center;
+    white-space: nowrap;
+    /* Prevents text wrapping */
 
 }
 
@@ -821,3 +860,121 @@ white-space: nowrap; /* Prevents text wrapping */
     box-shadow: rgba(0,0,0,0.15);
     display: none;
 } */
+
+
+
+
+
+
+
+
+/*------------------------------------------------- About Us - About-Scheme Page ---------------------------------------------------------------- */
+
+
+.abt-page {
+    margin-top: 70px;
+}
+
+
+.btn-abt-pdf a {
+    display: inline-block;
+    border-radius: 5px;
+    padding: 10px 27px;
+    margin-top: 5%;
+    background-color: #5BC0DE;
+    font-weight: 500;
+    font-size: 16px;
+    font-family: var(--secondry-font);
+    color: white;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+.ol-font li {
+    margin-top: -10px;
+    margin-bottom: 20px;
+    font-family: var(--primary-font);
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--secondary-text-color);
+}
+
+
+
+
+
+/*------------------------------------------------- About Us - About Wired Internet Scheme Page ---------------------------------------------------------------- */
+
+
+/*------------------------------------------------- About Us - mhaji-lab-bari-lab-the-goa-state Page ---------------------------------------------------------------- */
+
+
+
+
+/*------------------------------------------------- About Us - goy-mukhya-mantri-prashikshanarthi-yojana-gmmpy Page ---------------------------------------------------------------- */
+
+.purpose-sc .img-feature-ready {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    height: auto;
+}
+
+
+
+/*------------------------------------------------- About Us - know-our-team Page ---------------------------------------------------------------- */
+
+
+.committee-sec {
+    margin-bottom: 200px;
+}
+
+.committee-title {
+    font-family: var(--primary-font);
+    font-weight: bold;
+    color: #6EC1E4;
+    padding-bottom: 5px;
+}
+
+.committee-list li {
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.accordion-button {
+    font-weight: bold;
+    /* color: #007bff; */
+}
+
+
+
+
+/* -------------------------------------------------Resources Ourevents coding-and-robotics-competition-------------------------------------------------------------------- */
+
+.goa-codes-2025 .inline-eligibility {
+    color: #EA3CFF;
+    font-size: 20px;
+    font-family: var(--primary-font);
+    white-space: nowrap; /* forces one-line display */
+  }
+
+  .goa-codes-2025 .img-goa-codes-2025{
+  display: block;
+  margin: 0 auto;
+  width: auto;
+  height: auto;
+  }
+
+
+
+  .goa-codes-2025 .accordion-width-rules
+  {
+    width: 80%;
+  }
+
+
+  .ul-font{
+font-family: var(--secondary-font);
+font-size: 18px;
+color: #000000;
+  }

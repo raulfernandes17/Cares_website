@@ -25,8 +25,8 @@
 
 
     <!-- owl carsoule -->
-    <link rel="stylesheet" href="resources/owl-css/owl.carousel.min.css">
-    <link rel="stylesheet" href="resources/owl-css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="/resources-site/owl-css/owl.carousel.min.css">
+    <link rel="stylesheet" href="/resources-site/owl-css/owl.theme.default.min.css">
 
 
     <!-- cdn owl -->
@@ -44,16 +44,19 @@
 
 </head>
 
+<!-- highlight menu link when raching to specfice section on page -->
+
 <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="75">
 
     <!-- nav menu section -->
     <header class="header_wrapper">
-        <nav class="navbar navbar-expand-lg fixed-top navbar-m" id="#navbar">
+        <nav class="navbar navbar-expand-lg fixed-top navbar-m header-scrolled" id="#navbar">
             <div class="container navbar-nav-scroll">
 
                 <!-- logo -->
                 <!-- <img src="images/logo_CARES.png" alt="log" class="img-logo"> -->
-                <img src="images/cropped-LogoCARES-website-1536x771.png" alt="log" class="img-logo">
+                <a href="../index.html">
+                    <img src="../images/cropped-LogoCARES-website-1536x771.png" alt="log" class="img-logo"></a>
 
 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -64,7 +67,7 @@
                 <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                     <ul class="navbar-nav menu-navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                            <a class="nav-link" aria-current="page" href="index.html">Home</a>
                         </li>
 
 
@@ -74,29 +77,31 @@
                                 About Us
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown-About">
-                                <li><a class="dropdown-item" href="#about-scheme">About-Scheme</a></li>
+                                <li><a class="dropdown-item" href="/About-us/about-scheme.html">About-Scheme</a></li>
                                 <li>
                                     <hr class="dropdown-divider">
                                 </li>
                                 <li><a class="dropdown-item"
-                                        href="#wired-internet-scheme-for-ict-laboratoryin-schools-in-the-state-of-goa">About
+                                        href="/About-us/wired-internet-scheme-for-ict-laboratoryin-schools-in-the-state-of-goa.html">About
                                         Wired Internet Scheme</a></li>
                                 <li>
                                     <hr class="dropdown-divider">
                                 </li>
-                                <li><a class="dropdown-item" href="#mhaji-lab-bari-lab-the-goa-state">About Mhaji Lab
+                                <li><a class="dropdown-item"
+                                        href="/About-us/mhaji-lab-bari-lab-the-goa-state.html">About Mhaji Lab
                                         BAri Lab</a></li>
                                 <li>
                                     <hr class="dropdown-divider">
                                 </li>
                                 <li><a class="dropdown-item"
-                                        href="#goy-mukhya-mantri-prashikshanarthi-yojana-gmmpy/">About Goy Mukhya <br>
+                                        href="/About-us/goy-mukhya-mantri-prashikshanarthi-yojana-gmmpy.html">About Goy
+                                        Mukhya <br>
                                         Mantri Prashikshanarthi<br>
                                         Yojana (Gmmpy) - Internship Scheme</a></li>
                                 <li>
                                     <hr class="dropdown-divider">
                                 </li>
-                                <li><a class="dropdown-item" href="#/know-our-team/">Know Our Team</a></li>
+                                <li><a class="dropdown-item" href="/About-us/know-our-team.html">Know Our Team</a></li>
                                 <li>
                                     <hr class="dropdown-divider">
                                 </li>
@@ -106,7 +111,7 @@
                             </ul>
                         </li>
 
-
+                        <!-- 
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown-Academics" role="button"
                                 data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside">
@@ -156,7 +161,7 @@
                                 </li>
                                 <li><a class="dropdown-item" href="#">Goa Educational Stack</a></li>
                             </ul>
-                        </li>
+                        </li> -->
 
 
 
@@ -166,7 +171,8 @@
                                 Resources
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown-Competition">
-                                <li><a class="dropdown-item" href="#about-scheme">Competition</a></li>
+                                <li><a class="dropdown-item"
+                                        href="/Resources/coding-an-robotics-competition.html">Competition</a></li>
                                 <li>
                                     <hr class="dropdown-divider">
                                 </li>
@@ -706,15 +712,8 @@
             </div>
         </div>
     </section>
-    <!-- 
-    <br><br><br><br><br><br><br>
 
 
-    <br><br><br><br><br><br><br><br> -->
-
-
-    <!-- <div style="margin-bottom: 1800px;"></div>
- -->
 
 
 
@@ -726,25 +725,36 @@
                 <div class="col-md-10">
                     <div class="container mt-5">
                         <div class="card card-comp-sec">
-                            <ul class="list-group ">
+                            <ul class="list-group">
                                 <li class="list-group-item ">
-                                    <h6>Diwali Bootcamp 2024 - on 'Digital Etiquettes'</h6>
+                                    <a href="">
+                                        <h6 class="link-list-grp">Diwali Bootcamp 2024 - on 'Digital Etiquettes'</h6>
+                                    </a>
                                     <a href="#" class="view-more">View More <span class="arrow-comp">→</span></a>
                                 </li>
                                 <li class="list-group-item">
-                                    <h6>‘Junior Entrepreneurs: From Idea to Impact’ Bootcamp</h6>
+                                    <a href="">
+                                        <h6 class="link-list-grp">‘Junior Entrepreneurs: From Idea to Impact’ Bootcamp
+                                        </h6>
+                                    </a>
                                     <a href="#" class="view-more">View More <span class="arrow-comp">→</span></a>
                                 </li>
                                 <li class="list-group-item">
-                                    <h6>GOA CODES 2024</h6>
+                                    <a href="">
+                                        <h6 class="link-list-grp">GOA CODES 2024</h6>
+                                    </a>
                                     <a href="#" class="view-more">View More <span class="arrow-comp">→</span></a>
                                 </li>
                                 <li class="list-group-item">
-                                    <h6>Critical Thinking Diwali - Boot Camp</h6>
+                                    <a href="">
+                                        <h6 class="link-list-grp">Critical Thinking Diwali - Boot Camp</h6>
+                                    </a>
                                     <a href="#" class="view-more">View More <span class="arrow-comp">→</span></a>
                                 </li>
                                 <li class="list-group-item">
-                                    <h6>Blender BootCamp 2023</h6>
+                                    <a href="">
+                                        <h6 class="link-list-grp">Blender BootCamp 2023</h6>
+                                    </a>
                                     <a href="#" class="view-more">View More <span class="arrow-comp">→</span></a>
                                 </li>
                             </ul>
@@ -811,8 +821,8 @@
                                 Scheme</a>
                         </li>
 
-                        <li class="mb-2"><i class="fa fa-chevron-right"></i>&nbsp;&nbsp;<a href="#"
-                                class="text-link">Know our Teams</a>
+                        <li class="mb-2"><i class="fa fa-chevron-right"></i>&nbsp;&nbsp;<a
+                                href="About-us/know-our-team.html" class="text-link">Know our Teams</a>
                         </li>
 
                         <li class="mb-2"><i class="fa fa-chevron-right"></i>&nbsp;&nbsp;<a href="#"
@@ -1007,7 +1017,8 @@
 
 
     <!-- jquery cdn -->
-    <!-- <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script> -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 
     <!-- jquery -->
     <script src="JS/owlcarousel-js/jquery.min.js"></script>
@@ -1017,9 +1028,9 @@
 
 
     <!--cdn owl  -->
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
         integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
 
 
