@@ -111,8 +111,13 @@ p {
     margin-bottom: 45px;
 }
 
-
-
+.h3-sub-heading{
+   font-family: var(--primary-font);
+    font-size: 27px;
+    font-weight: 800;
+    color: var(--primary-text-color);
+    text-transform: capitalize;
+}
 
 
 /* btn green bk */
@@ -973,8 +978,17 @@ p {
   }
 
 
-  .ul-font{
-font-family: var(--secondary-font);
-font-size: 18px;
-color: #000000;
-  }
+.goa-codes-2025 .font-ol {
+    font-family: var(--primary-font);
+    color: var(--secondry-color);
+    font-size: 18px;
+    font-weight: 600;
+      font-style: italic;
+}
+
+
+/*---------------------------------------------------------------critical-thinking-diwali-bootcamp-2024-on-digital-etiquettes-------------------------------------------------*/
+
+
+
+
