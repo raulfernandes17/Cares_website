@@ -62,27 +62,27 @@
                                    
                                    
                                     <li class="list-group-item">
-                                        <a href="">
+                                        <a href="/ourevents/critical-thinking-diwali-bootcamp-2024-on-digital-etiquettes.html">
                                             <h6 class="link-list-grp">Diwali Bootcamp 2024 - on 'Digital Etiquettes'
                                             </h6>
                                         </a>
-                                        <a href="#" class="view-more">View More <span class="arrow-comp">→</span></a>
+                                        <a href="/ourevents/critical-thinking-diwali-bootcamp-2024-on-digital-etiquettes.html" class="view-more">View More <span class="arrow-comp">→</span></a>
                                     </li>
                                    
                                    
                                     <li class="list-group-item">
-                                        <a href="">
+                                        <a href="/ourevents/junior-entrepreneurs-from-idea-to-impact-bootcamp.html">
                                             <h6 class="link-list-grp">‘Junior Entrepreneurs: From Idea to Impact’ Bootcamp</h6>
                                         </a>
-                                        <a href="#" class="view-more">View More <span class="arrow-comp">→</span></a>
+                                        <a href="/ourevents/junior-entrepreneurs-from-idea-to-impact-bootcamp.html" class="view-more">View More <span class="arrow-comp">→</span></a>
                                     </li>
                                     
                                     
                                     <li class="list-group-item">
-                                        <a href="">
+                                        <a href="/ourevents/goa-codes-2024.html">
                                             <h6 class="link-list-grp">GOA CODES 2024</h6>
                                         </a>
-                                        <a href="#" class="view-more">View More <span class="arrow-comp">→</span></a>
+                                        <a href="/ourevents/goa-codes-2024.html" class="view-more">View More <span class="arrow-comp">→</span></a>
                                     </li>
                                     
                                     
@@ -131,48 +131,6 @@
                 </div>
             </div>
         </section>
-
-        <script>
-            // Find all list items with event names
-let eventListItems = document.querySelectorAll('.list-group-item a');
-
-// Function to extract year from event name
-function extractYear(eventName) {
-    // This is a simple, non-robust way to extract the year.
-    // For real applications, use a more robust parsing method.
-    let matches = eventName.textContent.match(/\d{4}/);
-    return matches ? parseInt(matches[0], 10) : null;
-}
-
-// Sort the list items based on extracted years
-eventListItems.sort(function(a, b) {
-    let yearA = extractYear(a.textContent);
-    let yearB = extractYear(b.textContent);
-
-    // If years are both numbers, sort by year
-    if (yearA !== null && yearB !== null) {
-        return yearA - yearB;
-    }
-
-    // If one or more is not a number, put non-numeric last
-    return Number(yearA) - Number(yearB);
-});
-
-// Reorder the DOM elements
-for (let i = 0; i < eventListItems.length; i++) {
-    let insertionIndex = eventListItems.indexOf(eventListItems[i]);
-    
-    if (i !== insertionIndex) {
-        eventListItems[insertionIndex].parentNode.insertBefore(eventListItems[i], eventListItems[insertionIndex].nextSibling);
-    }
-}
-        </script>
-
-
-
-
-
-
 
 
 
