@@ -47,42 +47,42 @@
 
 
 
-/*------------------ About Us - About-Scheme Page ----------------------------*/
+    /*------------------ About Us - About-Scheme Page ----------------------------*/
 
 
-.abt-page {
+    /* .abt-page { */
     /* margin-left: 50px; */
     /* margin-right: 50px; */
-}
+    /* } */
 
 
 
 
 
-/* Card Section 21St Century*/
+    /* Card Section 21St Century*/
 
-.card-21st-century .font-card-21 {
-    width: 100%;
-    padding: 10px 0px 10px 0px;
-    /*  top | right | bottom | left */
-}
+    .card-21st-century .font-card-21 {
+        width: 100%;
+        padding: 10px 0px 10px 0px;
+        /*  top | right | bottom | left */
+    }
 
-.card-21st-century .card-21 {
-    height: 300px;
-    width: 100%;
-}
-
-
+    .card-21st-century .card-21 {
+        height: 300px;
+        width: 100%;
+    }
 
 
-/* -------------------------------------------------Resources Ourevents coding-and-robotics-competition-------------------------------------------------------------------- */
 
-.goa-codes-2025 .img-goa-codes-2025 {
-    display: block;
-    margin: 0 auto;
-    width: 60%;
-    height: auto;
-}
+
+    /* -------------------------------------------------Resources Ourevents coding-and-robotics-competition-------------------------------------------------------------------- */
+
+    .goa-codes-2025 .img-goa-codes-2025 {
+        display: block;
+        margin: 0 auto;
+        width: 60%;
+        height: auto;
+    }
 
 
 
@@ -307,6 +307,7 @@
         font-size: 30px;
         line-height: 40px;
         padding-top: 25px;
+        line-height: 60PX;
     }
 
     h2 {
@@ -410,6 +411,12 @@
     .card-21st-century {
         margin-top: 75px;
     }
+
+    .ml-btn-botcamp {
+        margin-left: 10px !important;
+    }
+
+
 
 }
 

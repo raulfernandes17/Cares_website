@@ -95,29 +95,11 @@ h6 {
 /* paragraph text */
 p {
     font-family: var(--primary-font);
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 500;
     color: var(--secondary-text-color);
 }
 
-
-
-/* hadeing font event page */
-
-.eventsec-hedaing {
-    font-size: 50px;
-    font-weight: 800;
-    font-family: var(--third-font);
-    margin-bottom: 45px;
-}
-
-.h3-sub-heading{
-   font-family: var(--primary-font);
-    font-size: 27px;
-    font-weight: 800;
-    color: var(--primary-text-color);
-    text-transform: capitalize;
-}
 
 
 /* btn green bk */
@@ -149,6 +131,55 @@ p {
 .commonspace-footer {
     margin-bottom: 280px;
 }
+
+
+
+
+.cares-pmu-assets-video{
+    width: 100%;
+    height: 500px;
+}
+
+
+
+.btn-text-none a{
+color: #FFFFFF;
+}
+
+
+/* copetition {sub pages} hadeing / sub heading font event category */
+
+.eventsec-hedaing {
+    font-size: 50px;
+    font-weight: 800;
+    font-family: var(--third-font);
+    margin-bottom: 45px;
+}
+
+.h3-sub-heading {
+    font-family: var(--primary-font);
+    font-size: 28px;
+    font-weight: 800;
+    color: var(--primary-text-color);
+    text-transform: capitalize;
+}
+
+
+
+
+/* category our events sub pages  */
+
+.common-font-ourevents{
+font-family: var(--primary-font);
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--secondary-text-color);
+}
+
+
+
+
+/* --------------------------------------------------------------------Home Page------------------------------------------------------------------------------ */
 
 
 
@@ -426,6 +457,8 @@ p {
 
 
 /* Banner Section End*/
+
+
 
 
 
@@ -949,46 +982,106 @@ p {
 .accordion-button {
     font-weight: bold;
     /* color: #007bff; */
+    font-size: 18px;
 }
 
 
 
 
-/* -------------------------------------------------Resources Ourevents coding-and-robotics-competition-------------------------------------------------------------------- */
+/* -------------------------------------------------Ourevents category pages goa-codes-2025-------------------------------------------------------------------- */
 
 .goa-codes-2025 .inline-eligibility {
     color: #EA3CFF;
     font-size: 20px;
     font-family: var(--primary-font);
-    white-space: nowrap; /* forces one-line display */
-  }
+    white-space: nowrap;
+    /* forces one-line display */
+}
 
-  .goa-codes-2025 .img-goa-codes-2025{
-  display: block;
-  margin: 0 auto;
-  width: auto;
-  height: auto;
-  }
+.goa-codes-2025 .img-goa-codes-2025 {
+    display: block;
+    margin: 0 auto;
+    width: auto;
+    height: auto;
+}
 
 
 
-  .goa-codes-2025 .accordion-width-rules
-  {
+.goa-codes-2025 .accordion-width-rules {
     width: 80%;
-  }
+}
 
 
 .goa-codes-2025 .font-ol {
     font-family: var(--primary-font);
     color: var(--secondry-color);
-    font-size: 18px;
-    font-weight: 600;
-      font-style: italic;
+    font-size: 22px;
+    font-weight:600;
+    font-style: italic;
 }
+
+
+.goa-codes-2025 .ul-font{
+font-size: 21px;
+}
+
+
+
 
 
 /*---------------------------------------------------------------critical-thinking-diwali-bootcamp-2024-on-digital-etiquettes-------------------------------------------------*/
 
 
 
+/*---------------------------------------------------------------junior-entrepreneurs-from-idea-to-impact-bootcamp-------------------------------------------------*/
 
+
+
+/* -------------------------------------------------------goa-codes-2024-------------------------------------------------------------------------------/ */
+
+
+
+
+/* ---------------------------------------------------------------------------------------critical-thinking-diwali-boot-camp------------------------------------------------------------------------------- */
+
+.critical-thinking-diwali .thinking-diwali{
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+    height: auto;
+}
+
+
+
+
+/* ----------------------------------------------------------------blender-bootcamp-2023------------------------------------------------------------------------------- */
+
+.ul-font-blender-botcamp{
+    font-family: var(--primary-font);
+    font-size: 19px;
+    font-weight: 500;
+    color: var(--secondary-text-color);
+}
+
+
+.btn-blender-pdf a {
+    display: inline-block;
+    border-radius: 5px;
+    padding: 27px;
+    margin-top: 5%;
+    background-color: var(--btn-color);
+    font-weight: 500;
+    font-size:22px;
+    font-family: var(--secondry-font);
+    color: white;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+.btn-blender-pdf-2 a{
+        background-color: var(--secondry-color) !important;
+        
+}
+
+
+/* -----------------------------------------------goa-codes-2023-------------------------------------------------------------- */

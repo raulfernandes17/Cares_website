@@ -1,0 +1,46 @@
+{
+  "cards": [
+    {
+      "image": "images/cards-img/PTI.jpg",
+      "badge": "News",
+      "title": "Goa’s Coding and Robotics Scheme empowers students for a tech-driven future | Press Trust of India (PTI)",
+      "source": "CaresGoa1",
+      "date": "August 1, 2024"
+    },
+    {
+      "image": "images/cards-img/PTI.jpg",
+      "badge": "Event",
+      "title": "Students showcase tech at Goa Robotics Expo",
+      "source": "GoaTechNews2",
+      "date": "September 15, 2024"
+    },
+    {
+      "image": "images/cards-img/PTI.jpg",
+      "badge": "Event",
+      "title": "Students showcase tech at Goa Robotics Expo",
+      "source": "GoaTechNews3",
+      "date": "September 15, 2024"
+    },
+    {
+      "image": "images/cards-img/PTI.jpg",
+      "badge": "Event",
+      "title": "Students showcase tech at Goa Robotics Expo",
+      "source": "GoaTechNews4",
+      "date": "September 15, 2024"
+    },
+    {
+      "image": "images/cards-img/PTI.jpg",
+      "badge": "new",
+      "title": "Students showcase tech at Goa Robotics Expo",
+      "source": "GoaTechNews5",
+      "date": "September 15, 2024"
+    },
+    {
+      "image": "images/cards-img/PTI.jpg",
+      "badge": "Event",
+      "title": "Students showcase tech at Goa Robotics Expo",
+      "source": "GoaTechNews6",
+      "date": "September 15, 2024"
+    }
+  ]
+}
