@@ -10,15 +10,16 @@ window.addEventListener('load', function () {
         cardElement.className = 'card cards-achev-algin col-md-4 mb-4';
 
         cardElement.innerHTML = `
-          <img src="${card.image}" style="width:80%" class="card-img-top" alt="${card.title}">
+          <a href="${card.link}" style="text-decoration: none;">
+          <img src="${card.image}" style="width:100%" class="card-img-top" alt="${card.title}">
           <div class="card-body">
             <div class="d-flex justify-content-between align-items-center mb-2">
               <span class="badge bg-danger">${card.badge}</span>
             </div>
             <h5 class="card-title">${card.title}</h5>
-            <div class="d-flex justify-content-between align-items-center mb-2 mt-4">
-              <a href="#" class="text-muted">${card.source}</a>
-              <small class="text-muted">${card.date}</small>
+            <div class="d-flex align-items-center mb-2 mt-4">
+              <a href="#" class="text-muted me-auto">${card.source}</a>
+              <small class="text-muted ms-3">${card.date}</small>
             </div>
           </div>
         `;
@@ -36,7 +37,7 @@ window.addEventListener('load', function () {
           "<i class='fa fa-caret-left'></i>",
           "<i class='fa fa-caret-right'></i>"
         ],
-        autoplay: true,
+        autoplay: false,
         autoplayTimeout: 3000,
         autoplayHoverPause: true,
         responsive: {

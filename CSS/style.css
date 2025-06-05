@@ -135,15 +135,15 @@ p {
 
 
 
-.cares-pmu-assets-video{
+.cares-pmu-assets-video {
     width: 100%;
     height: 500px;
 }
 
 
 
-.btn-text-none a{
-color: #FFFFFF;
+.btn-text-none a {
+    color: #FFFFFF;
 }
 
 
@@ -169,8 +169,8 @@ color: #FFFFFF;
 
 /* category our events sub pages  */
 
-.common-font-ourevents{
-font-family: var(--primary-font);
+.common-font-ourevents {
+    font-family: var(--primary-font);
     font-size: 20px;
     font-weight: 500;
     color: var(--secondary-text-color);
@@ -567,7 +567,8 @@ font-family: var(--primary-font);
 
 /* Achievements Section */
 
-.achievements-section {
+.achievements-section,
+.achievements-section-post {
     margin-top: 150px;
     width: 100%;
 }
@@ -1016,13 +1017,13 @@ font-family: var(--primary-font);
     font-family: var(--primary-font);
     color: var(--secondry-color);
     font-size: 22px;
-    font-weight:600;
+    font-weight: 600;
     font-style: italic;
 }
 
 
-.goa-codes-2025 .ul-font{
-font-size: 21px;
+.goa-codes-2025 .ul-font {
+    font-size: 21px;
 }
 
 
@@ -1044,7 +1045,7 @@ font-size: 21px;
 
 /* ---------------------------------------------------------------------------------------critical-thinking-diwali-boot-camp------------------------------------------------------------------------------- */
 
-.critical-thinking-diwali .thinking-diwali{
+.critical-thinking-diwali .thinking-diwali {
     display: block;
     margin: 0 auto;
     width: 90%;
@@ -1056,7 +1057,7 @@ font-size: 21px;
 
 /* ----------------------------------------------------------------blender-bootcamp-2023------------------------------------------------------------------------------- */
 
-.ul-font-blender-botcamp{
+.ul-font-blender-botcamp {
     font-family: var(--primary-font);
     font-size: 19px;
     font-weight: 500;
@@ -1071,17 +1072,65 @@ font-size: 21px;
     margin-top: 5%;
     background-color: var(--btn-color);
     font-weight: 500;
-    font-size:22px;
+    font-size: 22px;
     font-family: var(--secondry-font);
     color: white;
     letter-spacing: 1px;
     text-decoration: none;
 }
 
-.btn-blender-pdf-2 a{
-        background-color: var(--secondry-color) !important;
-        
+.btn-blender-pdf-2 a {
+    background-color: var(--secondry-color) !important;
+
 }
 
 
 /* -----------------------------------------------goa-codes-2023-------------------------------------------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ----------------------------------------------------------{latest post-pages} --------------------------------------------------------------------------- */
+
+/* common css */
+/* .img-latest-post {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    height: auto;
+    
+} */
+
+.assets-video {
+    width: 80%;
+    height: 500px;
+}
+
+.img-latest-post {
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 100%;
+  display: block;
+}

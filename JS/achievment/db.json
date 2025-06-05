@@ -1,46 +1,124 @@
 {
   "cards": [
     {
+      "image": "images/cards-img/WhatsApp-Image-2025-05-05-at-4.50.30-PM.jpeg",
+      "badge": "News",
+      "title": "winners-of-reel-making-competition-on-promotion-of-cares-scheme",
+      "source": "CaresGoa",
+      "date": "February 24, 2025",
+      "link": "latest-post/winners-of-goa-codes-2025-phase-iii-state-level-competition-class-vii-category.html"
+    },
+    {
+      "image": "images/cards-img/GOA_CODES-2025_VII_page-0001-1652x2048.jpg",
+      "badge": "News",
+      "title": "Winners of Goa Codes 2025 – Phase III – State Level Competition – Class VII Category",
+      "source": "CaresGoa",
+      "date": "April 25, 2025",
+      "link": "latest-post/goa-codes-2024-phase-i-lead-school-level.html"
+    },
+    {
+      "image": "images/cards-img/33.jpg",
+      "badge": "News",
+      "title": "Winners of Goa Codes 2025 – Phase III – State Level Competition – Class VI Category",
+      "source": "CaresGoa",
+      "date": "September 15, 2024",
+      "link": "latest-post/winners-of-goa-codes-2025-phase-iii-state-level-competition.html"
+    },
+    {
+      "image": "images/cards-img/WhatsApp-Image-2025-04-17-at-11.02.23-AM-1536x1023.jpeg",
+      "badge": "News",
+      "title": "Winners of  Goa Codes 2025 – Phase – II – Taluka Level Competition",
+      "source": "CaresGoa",
+      "date": "April 17, 2025",
+      "link": "latest-post/winners-of-goa-codes-2025-phase-ii-taluka-level-competition.html"
+    },
+    {
+      "image": "images/cards-img/WhatsApp-Image-2025-04-04-at-7.59.40-PM-724x1024.jpeg",
+      "badge": "News",
+      "title": "Winners of Goa Codes 2025 – Phase I – Lead School Level",
+      "source": "CaresGoa",
+      "date": "April 5, 2025",
+      "link": "latest-post/winners-of-goa-codes-2025-phase-i-lead-school-level.html"
+    },
+    {
+      "image": "images/cards-img/WhatsApp-Image-2025-03-25-at-10.35.23-AM-768x1016.jpeg",
+      "badge": "News",
+      "title": "Project Director Dr. Vijay Borges delivered a keynote address on ‘Through a Focused, Result-oriented, Rapid & Massive Skilling Mission: For a Viksit Bharat@2047’ at the Two-Day National Level Seminar organized by Fr. Agnel College, Pilar, Goa.",
+      "source": "CaresGoa",
+      "date": "February 24, 2025",
+      "link": "latest-post/project-director-dr-vijay-borges-delivered-a-keynote-address-on-through-a-focused-result-oriented-rapid-massive-skilling-mission-for-a-viksit-bharat2047-at-the-two-day-nat.html"
+    },
+    {
+      "image": "images/cards-img/WhatsApp-Image-2025-01-29-at-12.56.41-PM.jpeg",
+      "badge": "News",
+      "title": "Radio Program on ‘Cyber Security Awareness’ organized by PMU-CARES",
+      "source": "CaresGoa",
+      "date": "January 29, 2025",
+      "link": "latest-post/radio-program-on-cyber-security-awareness-organized-by-pmu-cares.html"
+    },
+    {
+      "image": "images/cards-img/National-Level-Winners-at-Bebras-India-Challenge2024-.jpeg",
+      "badge": "News",
+      "title": "National Level Winners – at ‘Bebras India Challenge 2024’",
+      "source": "CaresGoa",
+      "date": "December 31, 2024",
+      "link": "latest-post/national-level-winners-at-bebras-india-challenge-2024.html"
+    },
+    {
       "image": "images/cards-img/PTI.jpg",
       "badge": "News",
       "title": "Goa’s Coding and Robotics Scheme empowers students for a tech-driven future | Press Trust of India (PTI)",
-      "source": "CaresGoa1",
-      "date": "August 1, 2024"
+      "source": "CaresGoa",
+      "date": "August 1, 2024",
+      "link": "latest-post/goas-coding-and-robotics-scheme-empowers-students-for-a-tech-driven-future-press-trust-of-india-pti.html"
     },
     {
-      "image": "images/cards-img/PTI.jpg",
-      "badge": "Event",
-      "title": "Students showcase tech at Goa Robotics Expo",
-      "source": "GoaTechNews2",
-      "date": "September 15, 2024"
+      "image": "images/cards-img/WhatsApp-Image-2024-07-26-at-7.01.43-PM.jpeg",
+      "badge": "News",
+      "title": "State Level Winners of Goa Codes 2024",
+      "source": "CaresGoa",
+      "date": "August 1, 2024",
+      "link": "latest-post/state-level-winners-of-goa-codes-2024.html"
     },
     {
-      "image": "images/cards-img/PTI.jpg",
-      "badge": "Event",
-      "title": "Students showcase tech at Goa Robotics Expo",
-      "source": "GoaTechNews3",
-      "date": "September 15, 2024"
+      "image": "images/cards-img/WhatsApp-Image-2024-06-26-at-11.49.59-AM.jpeg",
+      "badge": "News",
+      "title": "Goa Codes 2024 – Phase II : Taluka Level",
+      "source": "CaresGoa",
+      "date": "June 26, 2024",
+      "link": "latest-post/goa-codes-2024-phase-i-lead-school-level.html"
     },
     {
-      "image": "images/cards-img/PTI.jpg",
-      "badge": "Event",
-      "title": "Students showcase tech at Goa Robotics Expo",
-      "source": "GoaTechNews4",
-      "date": "September 15, 2024"
+      "image": "images/cards-img/Goa_Codes.jpeg",
+      "badge": "News",
+      "title": "Goa Codes 2024 – Phase I : Taluka Level",
+      "source": "CaresGoa",
+      "date": "March 28, 2024",
+      "link": "latest-post/goa-codes-2024-phase-i-lead-school-level.html"
     },
     {
-      "image": "images/cards-img/PTI.jpg",
-      "badge": "new",
-      "title": "Students showcase tech at Goa Robotics Expo",
-      "source": "GoaTechNews5",
-      "date": "September 15, 2024"
+      "image": "images/cards-img/GlobalTech_1.jpeg",
+      "badge": "News",
+      "title": "PMU DTE stall at Global Tech Summit, Goa. PMU specially designed STEAM products and resource content were on display",
+      "source": "CaresGoa",
+      "date": "March 28, 2024",
+      "link": "latest-post/project-director-dr-vijay-borges-delivered-a-keynote-address-on-through-a-focused-result-oriented-rapid-massive-skilling-mission-for-a-viksit-bharat2047-at-the-two-day-nat.html"
     },
     {
-      "image": "images/cards-img/PTI.jpg",
-      "badge": "Event",
-      "title": "Students showcase tech at Goa Robotics Expo",
-      "source": "GoaTechNews6",
-      "date": "September 15, 2024"
+      "image": "images/cards-img/GlobalTech_2.jpeg",
+      "badge": "News",
+      "title": "Project Director Dr. Vijay Borges served as one of the panellists at Global Tech Summit, Goa. Session titled “Future Proofing the Workforce”",
+      "source": "CaresGoa",
+      "date": "March 28, 2024",
+      "link": "latest-post/project-director-dr-vijay-borges-served-as-one-of-the-panellists-at-global-tech-summit-goa-session-titled-future-proofing-the-workforce.html"
+    },
+    {
+      "image": "images/cards-img/MoU_1.jpeg",
+      "badge": "News",
+      "title": "MoU signing between PMU-CARES DTE and BITS Pilani towards collaborative Research agreement",
+      "source": "CaresGoa",
+      "date": "March 28, 2024",
+      "link": "latest-post/mou-signing-between-pmu-cares-dte-and-bits-pilani-towards-collaborative-research-agreement.html"
     }
   ]
 }
