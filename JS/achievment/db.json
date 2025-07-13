@@ -1,20 +1,21 @@
 {
   "cards": [
-    {
+
+       {
       "image": "images/cards-img/WhatsApp-Image-2025-05-05-at-4.50.30-PM.jpeg",
       "badge": "News",
-      "title": "winners-of-reel-making-competition-on-promotion-of-cares-scheme",
+      "title": "Winners of Reel-Making Competition on Promotion of CARES Schemes",
       "source": "CaresGoa",
-      "date": "February 24, 2025",
-      "link": "latest-post/winners-of-goa-codes-2025-phase-iii-state-level-competition-class-vii-category.html"
+      "date": "September 15, 2024",
+      "link": "latest-post/winners-of-reel-making-competition-on-promotion-of-cares-scheme.html"
     },
     {
       "image": "images/cards-img/GOA_CODES-2025_VII_page-0001-1652x2048.jpg",
       "badge": "News",
       "title": "Winners of Goa Codes 2025 – Phase III – State Level Competition – Class VII Category",
       "source": "CaresGoa",
-      "date": "April 25, 2025",
-      "link": "latest-post/goa-codes-2024-phase-i-lead-school-level.html"
+      "date": "September 15, 2024",
+      "link": "latest-post/winners-of-goa-codes-2025-phase-iii-state-level-competition-class-vii-category.html"
     },
     {
       "image": "images/cards-img/33.jpg",
@@ -24,6 +25,9 @@
       "date": "September 15, 2024",
       "link": "latest-post/winners-of-goa-codes-2025-phase-iii-state-level-competition.html"
     },
+
+
+
     {
       "image": "images/cards-img/WhatsApp-Image-2025-04-17-at-11.02.23-AM-1536x1023.jpeg",
       "badge": "News",
@@ -48,6 +52,9 @@
       "date": "February 24, 2025",
       "link": "latest-post/project-director-dr-vijay-borges-delivered-a-keynote-address-on-through-a-focused-result-oriented-rapid-massive-skilling-mission-for-a-viksit-bharat2047-at-the-two-day-nat.html"
     },
+
+
+
     {
       "image": "images/cards-img/WhatsApp-Image-2025-01-29-at-12.56.41-PM.jpeg",
       "badge": "News",
@@ -72,6 +79,9 @@
       "date": "August 1, 2024",
       "link": "latest-post/goas-coding-and-robotics-scheme-empowers-students-for-a-tech-driven-future-press-trust-of-india-pti.html"
     },
+
+
+
     {
       "image": "images/cards-img/WhatsApp-Image-2024-07-26-at-7.01.43-PM.jpeg",
       "badge": "News",
@@ -86,7 +96,7 @@
       "title": "Goa Codes 2024 – Phase II : Taluka Level",
       "source": "CaresGoa",
       "date": "June 26, 2024",
-      "link": "latest-post/goa-codes-2024-phase-i-lead-school-level.html"
+      "link": "latest-post/goa-codes-2024-phase-ii-taluka-level.html"
     },
     {
       "image": "images/cards-img/Goa_Codes.jpeg",
@@ -96,6 +106,10 @@
       "date": "March 28, 2024",
       "link": "latest-post/goa-codes-2024-phase-i-lead-school-level.html"
     },
+
+
+
+
     {
       "image": "images/cards-img/GlobalTech_1.jpeg",
       "badge": "News",
@@ -119,6 +133,53 @@
       "source": "CaresGoa",
       "date": "March 28, 2024",
       "link": "latest-post/mou-signing-between-pmu-cares-dte-and-bits-pilani-towards-collaborative-research-agreement.html"
+    },
+
+
+
+    {
+      "image": "images/cards-img/PMU-CARES-at-Quest2Learn-Conference-in-Bangalore-Main.jpg",
+      "badge": "News",
+      "title": "PMU – CARES at Quest2Learn Conference in Bangalore",
+      "source": "CaresGoa",
+      "date": "November 1, 2023",
+      "link": "latest-post/pmu-cares-at-quest2learn-conference-in-bangalore.html"
+    },
+    {
+      "image": "images/cards-img/Blender-Nation-Thon-CARES-PMU-2.jpg",
+      "badge": "News",
+      "title": "Blender-Nation-Thon State Level",
+      "source": "CaresGoa",
+      "date": "November 1, 2023",
+      "link": "latest-post/blender-nation-thon-state-level.html"
+    },
+
+    {
+      "image": "images/cards-img/CARES-Linux-Training-Teach-For-Goa-Fellows-5.jpg",
+      "badge": "News",
+      "title": "Project Management Unit- CARES Training on Basics of Networking and Troubleshooting",
+      "source": "CaresGoa",
+      "date": "November 1, 2023",
+      "link": "latest-post/project-management-unit-cares-training-on-basics-of-networking-and-troubleshooting.html"
+    },
+
+
+    
+    {
+      "image": "images/cards-img/GOA-FOSS-CARES-PMU.jpg",
+      "badge": "News",
+      "title": "Project Management Unit- CARES Team at Goa FOSS Conference",
+      "source": "CaresGoa",
+      "date": "November 1, 2023",
+      "link": "latest-post/project-management-unit-cares-team-at-goa-foss-conference.html"
+    },
+        {
+      "image": "images/cards-img/The-valedictory-function-of-the-interns-after-completion-of-their-internship-at-the-PMU-CARES.jpg",
+      "badge": "News",
+      "title": "The valedictory function of the interns after completion of their internship at the Project Management Unit – Coding and Robotics Education in Schools Scheme",
+      "source": "CaresGoa",
+      "date": "November 1, 2023",
+      "link": "latest-post/project-management-unit-cares-training-on-basics-of-networking-and-troubleshooting.html"
     }
   ]
 }
