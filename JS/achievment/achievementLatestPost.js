@@ -29,7 +29,7 @@ window.addEventListener('load', function () {
 
       // ✅ Initialize Owl Carousel after cards are added
       $('#card-container').owlCarousel({
-        loop: true,
+        loop: false,
         nav: true,
         dots: true,
         margin: 40,
