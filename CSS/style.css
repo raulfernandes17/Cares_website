@@ -147,6 +147,25 @@ p {
 }
 
 
+
+
+.image-center-common {
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+    height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
 /* copetition {sub pages} hadeing / sub heading font event category */
 
 .eventsec-hedaing {
@@ -1086,7 +1105,6 @@ p {
 
 
 /* -----------------------------------------------goa-codes-2023-------------------------------------------------------------- */
-
 
 
 
