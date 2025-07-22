@@ -1,7 +1,6 @@
 {
   "cards": [
-
-       {
+    {
       "image": "images/cards-img/WhatsApp-Image-2025-05-05-at-4.50.30-PM.jpeg",
       "badge": "News",
       "title": "Winners of Reel-Making Competition on Promotion of CARES Schemes",
@@ -25,9 +24,6 @@
       "date": "September 15, 2024",
       "link": "latest-post/winners-of-goa-codes-2025-phase-iii-state-level-competition.html"
     },
-
-
-
     {
       "image": "images/cards-img/WhatsApp-Image-2025-04-17-at-11.02.23-AM-1536x1023.jpeg",
       "badge": "News",
@@ -52,9 +48,6 @@
       "date": "February 24, 2025",
       "link": "latest-post/project-director-dr-vijay-borges-delivered-a-keynote-address-on-through-a-focused-result-oriented-rapid-massive-skilling-mission-for-a-viksit-bharat2047-at-the-two-day-nat.html"
     },
-
-
-
     {
       "image": "images/cards-img/WhatsApp-Image-2025-01-29-at-12.56.41-PM.jpeg",
       "badge": "News",
@@ -79,9 +72,6 @@
       "date": "August 1, 2024",
       "link": "latest-post/goas-coding-and-robotics-scheme-empowers-students-for-a-tech-driven-future-press-trust-of-india-pti.html"
     },
-
-
-
     {
       "image": "images/cards-img/WhatsApp-Image-2024-07-26-at-7.01.43-PM.jpeg",
       "badge": "News",
@@ -106,10 +96,6 @@
       "date": "March 28, 2024",
       "link": "latest-post/goa-codes-2024-phase-i-lead-school-level.html"
     },
-
-
-
-
     {
       "image": "images/cards-img/GlobalTech_1.jpeg",
       "badge": "News",
@@ -134,9 +120,6 @@
       "date": "March 28, 2024",
       "link": "latest-post/mou-signing-between-pmu-cares-dte-and-bits-pilani-towards-collaborative-research-agreement.html"
     },
-
-
-
     {
       "image": "images/cards-img/PMU-CARES-at-Quest2Learn-Conference-in-Bangalore-Main.jpg",
       "badge": "News",
@@ -153,7 +136,6 @@
       "date": "November 1, 2023",
       "link": "latest-post/blender-nation-thon-state-level.html"
     },
-
     {
       "image": "images/cards-img/CARES-Linux-Training-Teach-For-Goa-Fellows-5.jpg",
       "badge": "News",
@@ -162,9 +144,6 @@
       "date": "November 1, 2023",
       "link": "latest-post/project-management-unit-cares-training-on-basics-of-networking-and-troubleshooting.html"
     },
-
-
-    
     {
       "image": "images/cards-img/GOA-FOSS-CARES-PMU.jpg",
       "badge": "News",
@@ -173,13 +152,46 @@
       "date": "November 1, 2023",
       "link": "latest-post/project-management-unit-cares-team-at-goa-foss-conference.html"
     },
-        {
+    {
       "image": "images/cards-img/The-valedictory-function-of-the-interns-after-completion-of-their-internship-at-the-PMU-CARES.jpg",
       "badge": "News",
       "title": "The valedictory function of the interns after completion of their internship at the Project Management Unit – Coding and Robotics Education in Schools Scheme",
       "source": "CaresGoa",
-      "date": "November 1, 2023",
+      "date": "July 24, 2023",
       "link": "latest-post/project-management-unit-cares-training-on-basics-of-networking-and-troubleshooting.html"
+    },
+
+
+    {
+      
+      "image": "images/cards-img/helpDesk-1024x576.png",
+      "badge": "News",
+      "title": "HelpDesk for- ICT Equipment Maintenance",
+      "source": "CaresGoa",
+      "date": "July 19, 2023",
+      "link": "latest-post/project-management-unit-cares-training-on-basics-of-networking-and-troubleshooting.html"
+    },
+
+    
+    {
+      
+      "image": "images/cards-img/helpDesk-1024x576.png",
+      "badge": "News",
+      "title": "HelpDesk for- ICT Equipment Maintenance",
+      "source": "CaresGoa",
+      "date": "July 19, 2023",
+      "link": "latest-post/helpdesk-for-ict-equipment-maintenance.html"
+    },
+
+       
+    {
+      
+      "image": "images/cards-img/ASSOCHAM-Goa-Council-Deliberates-On-Injecting-Technology-In-The-Ecosystem-Thursday-29th-June-2023.jpg",
+      "badge": "News",
+      "title": "ASSOCHAM Goa Council Deliberates On Injecting Technology In The Ecosystem / एसोचैम गोवा परिषद ने पारिस्थितिकी तंत्र में प्रौद्योगिकी को शामिल करने पर विचार-विमर्श किया।",
+      "source": "CaresGoa",
+      "date": "July 19, 2023",
+      "link": "latest-post/assocham-goa-council-deliberates-on-injecting-technology-in-the-ecosystem-एसोचैम-गोवा-परि.html"
     }
   ]
 }
