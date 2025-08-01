@@ -35,49 +35,7 @@
     <link rel="stylesheet" href="../CSS/style.css">
     <link rel="stylesheet" href="../CSS/responsive-style.css">
 
-    <style>
-        .masonry {
-            column-count: 4;
-            column-gap: 16px;
-            max-width: 1000px;
-            /* Optional: control width */
-            margin: 0 auto;
-            /* Center the whole block */
-        }
-
-        .masonry-item {
-            break-inside: avoid;
-            margin-bottom: 16px;
-            cursor: pointer;
-        }
-
-        .masonry-item img {
-            width: 100%;
-            border-radius: 8px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        }
-
-        @media (max-width: 768px) {
-            .masonry {
-                column-count: 2;
-            }
-        }
-
-        @media (max-width: 576px) {
-            .masonry {
-                column-count: 1;
-            }
-        }
-
-        .owl-carousel img {
-            width: 100%;
-            border-radius: 8px;
-        }
-
-        .modal-dialog {
-            max-width: 80%;
-        }
-    </style>
+   
 </head>
 
 <body>
@@ -146,37 +104,41 @@
                                         <div class="container mt-5">
                                             <div class="row justify-content-center">
 
-                                                <div class="masonry" id="gallery">
-                                                    <div class="masonry-item" data-index="0"><img
+                                                <div class="masonry-img-gallery" id="gallery">
+                                                    <div class="masonry-item-post" data-index="0"><img
                                                             src="/images/cards-img/image-gallery- launch Class VIII Revised ICT Curriculum/CARES_Training_1.jpg"
                                                             alt="img1">
                                                     </div>
-                                                    <div class="masonry-item" data-index="1"><img
+                                                    <div class="masonry-item-post" data-index="1"><img
                                                             src="/images/cards-img/image-gallery- launch Class VIII Revised ICT Curriculum/CARES_Training_2.jpg"
                                                             alt="img2">
                                                     </div>
-                                                    <div class="masonry-item" data-index="2"><img
+                                                    <div class="masonry-item-post" data-index="2"><img
                                                             src="/images/cards-img/image-gallery- launch Class VIII Revised ICT Curriculum/CARES_Training_3.jpg"
                                                             alt="img3">
                                                     </div>
-                                                    <div class="masonry-item" data-index="3"><img
+                                                    <div class="masonry-item-post" data-index="3"><img
                                                             src="/images/cards-img/image-gallery- launch Class VIII Revised ICT Curriculum/CARES_Training_4.jpg"
                                                             alt="img4">
                                                     </div>
-                                                    <div class="masonry-item" data-index="4"><img
+                                                    <div class="masonry-item-post" data-index="4"><img
                                                             src="/images/cards-img/image-gallery- launch Class VIII Revised ICT Curriculum/CARES_Training_7.jpg"
                                                             alt="img5">
                                                     </div>
-                                                    <div class="masonry-item" data-index="5"><img
+                                                    <div class="masonry-item-post" data-index="5"><img
                                                             src="/images/cards-img/image-gallery- launch Class VIII Revised ICT Curriculum/CARES_Training_8.jpg"
                                                             alt="img6">
                                                     </div>
-                                                    <div class="masonry-item" data-index="5"><img
+                                                    <div class="masonry-item-post" data-index="5"><img
                                                             src="/images/cards-img/image-gallery- launch Class VIII Revised ICT Curriculum/CARES_Training_9.jpg"
                                                             alt="img6">
                                                     </div>
-                                                    <div class="masonry-item" data-index="5"><img
+                                                    <div class="masonry-item-post" data-index="5"><img
                                                             src="/images/cards-img/image-gallery- launch Class VIII Revised ICT Curriculum/CARES_Training_10.jpg"
+                                                            alt="img6">
+                                                    </div>
+                                                     <div class="masonry-item-post" data-index="5"><img
+                                                            src="/images/cards-img/image-gallery- launch Class VIII Revised ICT Curriculum/CARES_Training_11.jpg"
                                                             alt="img6">
                                                     </div>
 
@@ -201,7 +163,7 @@
                                                         data-bs-dismiss="modal" aria-label="Close"></button>
 
                                                     <div class="modal-body p-0">
-                                                        <div class="owl-carousel owl-theme" id="carouselGallery">
+                                                        <div class="owl-carousel owl-theme" id="carouselGallery-post-page-launch-class-viii-revised-ict">
                                                             <div class="item">
                                                                 <img src="/images/cards-img/image-gallery- launch Class VIII Revised ICT Curriculum/CARES_Training_1.jpg"
                                                                     alt="">
@@ -236,6 +198,10 @@
                                                             </div>
                                                             <div class="item">
                                                                 <img src="/images/cards-img/image-gallery- launch Class VIII Revised ICT Curriculum/CARES_Training_10.jpg"
+                                                                    alt="">
+                                                            </div>
+                                                               <div class="item">
+                                                                <img src="/images/cards-img/image-gallery- launch Class VIII Revised ICT Curriculum/CARES_Training_11.jpg"
                                                                     alt="">
                                                             </div>
                                                         </div>
@@ -379,7 +345,7 @@
 
         <script>
             $(document).ready(function () {
-                const owl = $('#carouselGallery');
+                const owl = $('#carouselGallery-post-page-launch-class-viii-revised-ict');
                 owl.owlCarousel({
                     items: 1,
                     loop: true,
@@ -394,7 +360,7 @@
                 });
 
                 // Open Modal and go to specific slide
-                $('.masonry-item').on('click', function () {
+                $('.masonry-item-post').on('click', function () {
                     const index = $(this).data('index');
                     $('#imageModal').modal('show');
                     owl.trigger('to.owl.carousel', [index, 300]);

@@ -1177,3 +1177,47 @@ p {
 .achievements-section-post .thumb-col {
     max-width: 160px;
 }
+
+/*---- pmu-all-set-to-launch-class-viii-revised-ict-curriculum-as-per-nep-2020-from-academic-year-2023-24 PAGE ---------*/
+
+  .masonry-img-gallery {
+            column-count: 4;
+            column-gap: 16px;
+            max-width: 1000px;
+            /* Optional: control width */
+            margin: 0 auto;
+            /* Center the whole block */
+        }
+
+        .masonry-item-post {
+            break-inside: avoid;
+            margin-bottom: 16px;
+            cursor: pointer;
+        }
+
+        .masonry-item-post img {
+            width: 100%;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        @media (max-width: 768px) {
+            .masonry-img-gallery {
+                column-count: 2;
+            }
+        }
+
+        @media (max-width: 576px) {
+            .masonry-img-gallery {
+                column-count: 1;
+            }
+        }
+
+        .owl-carousel img {
+            width: 100%;
+            border-radius: 8px;
+        }
+
+        .modal-dialog {
+            max-width: 50%;
+        }

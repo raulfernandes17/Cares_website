@@ -144,8 +144,6 @@
       "date": "November 1, 2023",
       "link": "latest-post/project-management-unit-cares-training-on-basics-of-networking-and-troubleshooting.html"
     },
-    
-    
     {
       "image": "images/cards-img/GOA-FOSS-CARES-PMU.jpg",
       "badge": "News",
@@ -154,8 +152,6 @@
       "date": "November 1, 2023",
       "link": "latest-post/project-management-unit-cares-team-at-goa-foss-conference.html"
     },
-
-
     {
       "image": "images/cards-img/The-valedictory-function-of-the-interns-after-completion-of-their-internship-at-the-PMU-CARES.jpg",
       "badge": "News",
@@ -164,10 +160,7 @@
       "date": "July 24, 2023",
       "link": "latest-post/the-valedictory-function-of-the-interns-after-completion-of-their-internship-at-the-project-management-unit-coding-and-robotics-education-in-schools-scheme.html"
     },
-
-    
     {
-      
       "image": "images/cards-img/helpDesk-1024x576.png",
       "badge": "News",
       "title": "HelpDesk for- ICT Equipment Maintenance",
@@ -175,10 +168,7 @@
       "date": "July 19, 2023",
       "link": "latest-post/helpdesk-for-ict-equipment-maintenance.html"
     },
-
-       
     {
-      
       "image": "images/cards-img/ASSOCHAM-Goa-Council-Deliberates-On-Injecting-Technology-In-The-Ecosystem-Thursday-29th-June-2023.jpg",
       "badge": "News",
       "title": "ASSOCHAM Goa Council Deliberates On Injecting Technology In The Ecosystem / एसोचैम गोवा परिषद ने पारिस्थितिकी तंत्र में प्रौद्योगिकी को शामिल करने पर विचार-विमर्श किया।",
@@ -186,17 +176,29 @@
       "date": "July 19, 2023",
       "link": "latest-post/assocham-goa-council-deliberates-on-injecting-technology-in-the-ecosystem-एसोचैम-गोवा-परि.html"
     },
-
-        {
-      
+    {
       "image": "images/cards-img/image-gallery- launch Class VIII Revised ICT Curriculum/CARES_Training_7.jpg",
       "badge": "News",
-      "title": "ASSOCHAM Goa Council Deliberates On Injecting Technology In The Ecosystem / एसोचैम गोवा परिषद ने पारिस्थितिकी तंत्र में प्रौद्योगिकी को शामिल करने पर विचार-विमर्श किया।",
+      "title": "PMU all set to launch Class VIII Revised ICT Curriculum as per NEP 2020, from academic year 2023-24",
       "source": "CaresGoa",
       "date": "July 19, 2023",
       "link": "latest-post/pmu-all-set-to-launch-class-viii-revised-ict-curriculum-as-per-nep-2020-from-academic-year-2023-24.html"
+    },
+    {
+      "image": "images/cards-img/Week-1-Loop-image.jpg",
+      "badge": "News",
+      "title": "Design Thinking Workshop",
+      "source": "CaresGoa",
+      "date": "January 2, 2023",
+      "link": "latest-post/design-thinking-workshop.html"
+    },
+    {
+      "image": "images/cards-img/maxresdefault.jpg",
+      "badge": "News",
+      "title": "Teachers and Students Orientation – “Goa Codeavour 2022”",
+      "source": "CaresGoa",
+      "date": "December 8, 2022ss",
+      "link": "latest-post/teachers-and-students-orientation-goa-codeavour-2022.html"
     }
   ]
 }
-
-
