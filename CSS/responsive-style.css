@@ -259,12 +259,22 @@
 
 
 
+
     /* Footer Section */
 
     .container,
     .container-md,
     .container-sm {
         max-width: 800px !important;
+    }
+
+
+
+
+    /* owl post page pmu-all-set-to-launch-class-viii-revised-ict*/
+
+    .masonry-img-gallery {
+        column-count: 2;
     }
 
 
@@ -295,7 +305,12 @@
 
 
 
-
+/* pmu-all-set-to-launch-class-viii-revised-ict post page */
+@media (max-width: 576px) {
+    .masonry-img-gallery {
+        column-count: 1;
+    }
+}
 
 
 

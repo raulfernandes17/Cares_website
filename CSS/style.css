@@ -586,8 +586,10 @@ p {
 
 /* Achievements Section */
 
+/* common css for post / gallery */
 .achievements-section,
-.achievements-section-post {
+.achievements-section-post,
+.gallery-cares-section {
     margin-top: 150px;
     width: 100%;
 }
@@ -617,7 +619,7 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #000000;
+    color: #e02c2c;
     font-size: 34px;
 }
 
@@ -1119,17 +1121,6 @@ p {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 /* ----------------------------------------------------------{latest post-pages} --------------------------------------------------------------------------- */
 
 /* common css */
@@ -1178,46 +1169,75 @@ p {
     max-width: 160px;
 }
 
+
+
+
+
+
 /*---- pmu-all-set-to-launch-class-viii-revised-ict-curriculum-as-per-nep-2020-from-academic-year-2023-24 PAGE ---------*/
 
-  .masonry-img-gallery {
-            column-count: 4;
-            column-gap: 16px;
-            max-width: 1000px;
-            /* Optional: control width */
-            margin: 0 auto;
-            /* Center the whole block */
-        }
+/*----------- same css for gallery ----------------*/
 
-        .masonry-item-post {
-            break-inside: avoid;
-            margin-bottom: 16px;
-            cursor: pointer;
-        }
+.masonry-img-gallery {
+    column-count: 4;
+    column-gap: 16px;
+    max-width: 1000px;
+    /* Optional: control width */
+    margin: 0 auto;
+    /* Center the whole block */
+}
 
-        .masonry-item-post img {
-            width: 100%;
-            border-radius: 8px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        }
+.masonry-item-post {
+    break-inside: avoid;
+    margin-bottom: 16px;
+    cursor: pointer;
+}
 
+.masonry-item-post img {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+       display: block;
+}
+
+/* 
         @media (max-width: 768px) {
             .masonry-img-gallery {
                 column-count: 2;
             }
-        }
-
+        } */
+/* 
         @media (max-width: 576px) {
             .masonry-img-gallery {
                 column-count: 1;
             }
-        }
+        } */
 
-        .owl-carousel img {
-            width: 100%;
-            border-radius: 8px;
-        }
+.owl-carousel img {
+    width: 100%;
+    border-radius: 8px;
+       display: block;
+}
 
-        .modal-dialog {
-            max-width: 50%;
-        }
+.modal-dialog {
+    max-width: 50%;
+}
+
+
+/* gallery cars  */
+
+.modal-dialog-gallery {
+     max-width: 30%;
+}
+
+@media (max-width: 992px) {
+    .modal-dialog-gallery {
+        max-width: 80%;
+    }
+}
+
+@media (max-width: 576px) {
+    .modal-dialog-gallery {
+        max-width: 95%;
+    }
+}
