@@ -50,53 +50,39 @@
 
 
         <div class="container commonspace-header">
-
-            <!-- achievements-section-post  -->
-
             <section class="gallery-cares-section mb-5">
                 <div class="container">
                     <div class="row justify-content-center">
-                        <h1 class="text-center eventsec-hedaing" style="font-size: 36px;">
-                            Cares Goa
-                        </h1>
+                        <h1 class="text-center eventsec-hedaing" style="font-size: 36px;">Cares Goa</h1>
 
+                        <!-- Teachers Images -->
+                        <h2 class="text-center mt-5">Teachers Gallery</h2>
+                        <div class="masonry-img-gallery" id="gallery-teachers" data-section="teachers"></div>
 
+                        <!-- Training Images -->
+                        <h2 class="text-center mt-5">Training Gallery</h2>
+                        <div class="masonry-img-gallery" id="gallery-training" data-section="training"></div>
 
-                        <div class="container mt-5">
-                            <div class="row justify-content-center">
-
-                                <div class="row justify-content-center">
-                                    <div class="masonry-img-gallery" id="gallery"></div>
-                                </div>
-
-
-                            </div>
-                        </div>
-
-
-
-                        <br><br><br><br><br>
-                        <!-- Modal with Owl Carousel -->
-                        <div class="modal fade" id="imageModal" tabindex="-1">
-                            <div class="modal-dialog modal-dialog-centered modal-xl modal-dialog-gallery">
-                                <div class="modal-content bg-transparent border-0 position-relative">
-                                    <button type="button" class="btn-close position-absolute top-0 end-0 m-3"
-                                        data-bs-dismiss="modal"></button>
-                                    <div class="modal-body p-0">
-                                        <div class="owl-carousel owl-theme" id="carouselGallery"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-
-
+                        <!-- School Memories -->
+                        <h2 class="text-center mt-5">School Memories</h2>
+                        <div class="masonry-img-gallery" id="gallery-school" data-section="school"></div>
                     </div>
+                </div>
+
+                <!-- Modal -->
+                <div class="modal fade" id="imageModal" tabindex="-1">
+                    <div class="modal-dialog modal-dialog-centered modal-xl">
+                        <div class="modal-content bg-transparent border-0 position-relative">
+                            <button type="button" class="btn-close position-absolute top-0 end-0 m-3"
+                                data-bs-dismiss="modal"></button>
+                            <div class="modal-body p-0">
+                                <div class="owl-carousel owl-theme" id="carouselGallery"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </section>
-
-
         </div>
-
 
 
 
@@ -159,9 +145,13 @@
 
         <!-- custom js -->
         <script src="../JS/main.js"></script>
-<script src="/js/img-gallery-cares/gallery-img.js"></script>
+        <script src="/js/img-gallery-cares/gallery-img.js"></script>
 
-       
+
+
+
+
+
     </body>
 
 </html>

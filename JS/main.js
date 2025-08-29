@@ -42,7 +42,7 @@ document.addEventListener("DOMContentLoaded", function () {
   window.onscroll = function () {
     if (document.documentElement.scrollTop > 20) {
       navbar.classList.add("header-scrolled");
-      navbar.classList.add("sticky"); 
+      navbar.classList.add("sticky");
       // scrollBtn.style.display = "block";
     } else {
       navbar.classList.remove("header-scrolled");
@@ -93,6 +93,9 @@ window.addEventListener('load', function () {
 });
 
 
+
+
+
 // footer section
 window.addEventListener('load', function () {
   fetch('../partials/footer.html') // Adjust the path
@@ -104,3 +107,5 @@ window.addEventListener('load', function () {
     .catch(error => console.error("Error loading the footer:", error));
 
 });
+
+

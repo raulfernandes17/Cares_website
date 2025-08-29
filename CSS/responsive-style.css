@@ -107,6 +107,11 @@
         justify-content: flex-start !important;
     }
 
+
+    /* gallery of cares */
+       .modal-dialog-gallery {
+        max-width: 80%;
+    }
 }
 
 
@@ -309,6 +314,10 @@
 @media (max-width: 576px) {
     .masonry-img-gallery {
         column-count: 1;
+    }
+
+       .modal-dialog-gallery {
+        max-width: 95%;
     }
 }
 
