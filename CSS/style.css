@@ -109,6 +109,7 @@ p {
     font-size: 18px;
     font-weight: 500;
     color: var(--secondary-text-color);
+    margin-bottom: 0.2rem;
 }
 
 
@@ -1270,3 +1271,17 @@ p {
     background: #fff;
     box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
 }
+.list-group {
+    list-style: none; 
+    padding-left: 0; /* remove default left padding of ul */
+}
+
+
+/* ------------------------------tenders page------------------------------- */
+
+
+/* --------------------------pmu-products-in-house-developed page---------------------------------------------- */
+
+
+
+/* -----------------------------software-installations-------------------------------------------------- */
