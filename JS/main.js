@@ -109,3 +109,17 @@ window.addEventListener('load', function () {
 });
 
 
+// class-vi-regular page - Concept Overview- Scratch Accordion
+const mainPlayer = document.getElementById('mainPlayer');
+const thumbnails = document.querySelectorAll('.thumb-wrapper');
+
+thumbnails.forEach(wrapper => {
+  wrapper.addEventListener('click', () => {
+    const videoId = wrapper.getAttribute('data-video');
+    mainPlayer.src = `https://www.youtube.com/embed/${videoId}`;
+
+    // Update active border
+    thumbnails.forEach(w => w.classList.remove('active'));
+    wrapper.classList.add('active');
+  });
+});

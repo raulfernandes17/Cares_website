@@ -10,6 +10,19 @@
     }
 }
 
+@media (max-width:1400px) {
+
+
+    /*  Class-vi-Regular page*/
+    .Accordion-Class-vi-Regular {
+        padding: 20px 50px 20px 50px;
+        /*  top | right | bottom | left */
+    }
+
+
+
+}
+
 
 /* xl 1024 */
 @media (max-width:1024px) {
@@ -43,7 +56,11 @@
     }
 
 
-
+    /*  Class-vi-Regular page*/
+    .Accordion-Class-vi-Regular {
+        padding: 20px 50px 20px 50px;
+        /*  top | right | bottom | left */
+    }
 
 
 
@@ -109,7 +126,7 @@
 
 
     /* gallery of cares */
-       .modal-dialog-gallery {
+    .modal-dialog-gallery {
         max-width: 80%;
     }
 }
@@ -283,6 +300,29 @@
     }
 
 
+
+    /* class-vi-regular-page  Concept Overview- Scratch youtube video*/
+    .video-container-scratch {
+        flex-direction: column;
+    }
+
+    .main-video,
+    .video-list-scratch {
+        flex: 1 1 100%;
+    }
+
+    .video-list-scratch {
+        flex-direction: row;
+        flex-wrap: wrap;
+        max-height: none;
+        gap: 5px;
+    }
+
+    .thumb-wrapper {
+        flex: 1 1 48%;
+        height: 100px;
+        /* fixed height for small screens */
+    }
 }
 
 
@@ -316,7 +356,7 @@
         column-count: 1;
     }
 
-       .modal-dialog-gallery {
+    .modal-dialog-gallery {
         max-width: 95%;
     }
 }
@@ -413,6 +453,24 @@
         right: -40px;
     }
 
+    /* gallery model carsoule */
+    #carouselGallery {
+        position: absolute;
+        top: 20%;
+        left: 40%;
+        width: 100%;
+
+    }
+
+    .btn-close {
+        position: relative;
+        left: 100%;
+    }
+
+    .btn-model-bk {
+        font-size: 20px;
+    }
+
 
 
     /* Card  21st Century Section */
@@ -442,6 +500,13 @@
 
 
 
+    /* class-vi-regular-page  Concept Overview- Scratch youtube video*/
+    .thumb-wrapper {
+        flex: 1 1 100%;
+        height: 90px;
+    }
+
+
 }
 
 
@@ -455,4 +520,27 @@
         width: 90%;
     }
 
+}
+
+
+/* Responsive: Very small (320px) */
+@media screen and (max-width: 320px) {
+    .video-container-scratch {
+        gap: 6px;
+    }
+
+    .main-video iframe {
+        aspect-ratio: 16 / 9;
+        width: 90%;
+    }
+
+    .video-list-scratch {
+        gap: 6px;
+        width: 100%;
+    }
+
+    .thumb-wrapper {
+        flex: 1 1 50%;
+        height: auto;
+    }
 }

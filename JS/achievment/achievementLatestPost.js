@@ -42,7 +42,7 @@ window.addEventListener('load', function () {
         autoplayHoverPause: true,
         responsive: {
           0: { items: 1 },
-          320: { items: 1, margin: 20 },
+          320: { items: 1 },
           425: { items: 1 },
           600: { items: 2 },
           768: { items: 2 },

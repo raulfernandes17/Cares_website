@@ -33,7 +33,10 @@ $(function () {
         nav: true,
         dots: false,
         autoplay: true,
-        navText: ["<i class='fa fa-caret-left'></i>", "<i class='fa fa-caret-right'></i>"]
+        navText: ["<i class='fa fa-caret-left'></i>", "<i class='fa fa-caret-right'></i>"],
+        responsive: {
+         425: { items: 1 },
+        }
       });
 
       // Open modal on click

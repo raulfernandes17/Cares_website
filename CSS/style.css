@@ -168,17 +168,22 @@ p {
     height: auto;
 }
 
+.btn-model-bk {
+    background-color: #494848;
+    font-size: 25px;
+    transition: color 0.3s; 
+}
+
+
+.btn-model-bk:hover  {
+    background-color: #e77b7b; 
+}
 
 
 
 
 
-
-
-
-
-
-/* copetition {sub pages} hadeing / sub heading font event category */
+/* competition {sub pages} hadeing / sub heading font event category / Resources pages heading*/
 
 .eventsec-hedaing {
     font-size: 50px;
@@ -729,6 +734,7 @@ p {
     /*  top | right | bottom | left */
     background: #fff;
     box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    flex-wrap: wrap;
 }
 
 .competion-section .link-list-grp {
@@ -822,9 +828,9 @@ p {
 
 /* Decorative Elements */
 .card-container-21st-century {
-    position: relative; 
-    z-index: 1; 
-    overflow: hidden; 
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
 }
 
 /* Decorative Elements */
@@ -832,9 +838,9 @@ p {
 .card-container-21st-century::after {
     content: "";
     position: absolute;
-    background-size: contain; 
+    background-size: contain;
     background-repeat: no-repeat;
-    z-index: -1; 
+    z-index: -1;
 }
 
 /* Left decorative element */
@@ -851,7 +857,7 @@ p {
 .card-container-21st-century::after {
     top: 20px;
     right: -30px;
-    width: 12%;  
+    width: 12%;
     max-width: 100px;
     aspect-ratio: 10 / 10;
     background-image: url('../images/cta-shape-2.png');
@@ -1260,7 +1266,7 @@ p {
 
 /* ----------------------------------join our team page------------------------------------------- */
 
- .card-join-our-team .list-group-item-js {
+.card-join-our-team .list-group-item-js {
     justify-content: space-between;
     align-items: center;
     border-radius: 10px;
@@ -1271,9 +1277,11 @@ p {
     background: #fff;
     box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
 }
+
 .list-group {
-    list-style: none; 
-    padding-left: 0; /* remove default left padding of ul */
+    list-style: none;
+    padding-left: 0;
+    /* remove default left padding of ul */
 }
 
 
@@ -1285,3 +1293,71 @@ p {
 
 
 /* -----------------------------software-installations-------------------------------------------------- */
+
+
+/* ------------------------------------class-vi-regular------------------------------------------------------- */
+
+
+
+ .view-fullscreen {
+      display: inline-block;
+      margin-top: 10px;
+      text-decoration: none;
+      background: #007BFF;
+      color: white;
+      padding: 8px 12px;
+      border-radius: 5px;
+    }
+
+       .iframe-class-vi-regular {
+      width: 100%;
+      height: 600px;
+      border: none;
+      margin-top: 10px;
+    }
+
+
+    .video-container-scratch {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.main-video {
+  flex: 1 1 65%;
+  min-width: 300px;
+}
+
+.video-list-scratch {
+  flex: 1 1 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  max-height: 1000px;
+  overflow-y: auto;
+}
+
+.video-list-scratch iframe {
+  width: 100%;
+  aspect-ratio: 16/9;
+  border: none;
+}
+
+.thumb-wrapper {
+  display: inline-block;
+  border: 2px solid transparent;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.thumb-wrapper.active {
+  border-color: red;
+  border-width:3px ;
+}
+
+.thumb-wrapper iframe {
+  width: 100%;
+  height: 100%;
+  pointer-events: none; /* Makes click go to the wrapper */
+}
+
