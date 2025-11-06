@@ -171,12 +171,12 @@ p {
 .btn-model-bk {
     background-color: #494848;
     font-size: 25px;
-    transition: color 0.3s; 
+    transition: color 0.3s;
 }
 
 
-.btn-model-bk:hover  {
-    background-color: #e77b7b; 
+.btn-model-bk:hover {
+    background-color: #e77b7b;
 }
 
 
@@ -1292,72 +1292,96 @@ p {
 
 
 
-/* -----------------------------software-installations-------------------------------------------------- */
+/* -----------------------------software-installation page-------------------------------------------------- */
 
 
-/* ------------------------------------class-vi-regular------------------------------------------------------- */
+/* ------------------------------------class-vi-regular page------------------------------------------------------- */
 
 
+.view-fullscreen {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    background: #007BFF;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 5px;
+}
 
- .view-fullscreen {
-      display: inline-block;
-      margin-top: 10px;
-      text-decoration: none;
-      background: #007BFF;
-      color: white;
-      padding: 8px 12px;
-      border-radius: 5px;
-    }
-
-       .iframe-class-vi-regular {
-      width: 100%;
-      height: 600px;
-      border: none;
-      margin-top: 10px;
-    }
+.iframe-class-vi-regular {
+    width: 100%;
+    height: 600px;
+    border: none;
+    margin-top: 10px;
+}
 
 
-    .video-container-scratch {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
+.video-container-scratch {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
 }
 
 .main-video {
-  flex: 1 1 65%;
-  min-width: 300px;
+    flex: 1 1 65%;
+    min-width: 300px;
 }
 
 .video-list-scratch {
-  flex: 1 1 30%;
-  display: flex;
-  flex-direction: column;
-  gap: 6px;
-  max-height: 1000px;
-  overflow-y: auto;
+    flex: 1 1 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    max-height: 1000px;
+    overflow-y: auto;
 }
 
 .video-list-scratch iframe {
-  width: 100%;
-  aspect-ratio: 16/9;
-  border: none;
+    width: 100%;
+    aspect-ratio: 16/9;
+    border: none;
 }
 
+
 .thumb-wrapper {
-  display: inline-block;
-  border: 2px solid transparent;
-  cursor: pointer;
-  overflow: hidden;
+    display: inline-block;
+    border: 2px solid transparent;
+    cursor: pointer;
+   
 }
 
 .thumb-wrapper.active {
-  border-color: red;
-  border-width:3px ;
+    border-color: red;
+    border-width: 3px;
 }
 
 .thumb-wrapper iframe {
-  width: 100%;
-  height: 100%;
-  pointer-events: none; /* Makes click go to the wrapper */
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    /* Makes click go to the wrapper */
 }
 
+
+
+
+
+
+/* --------------------------------class-vi-elective-syllabus page---------------------------------------- */
+
+
+/* --------------------------------------class-vii-regular page--------------------------------------------------------- */
+
+/* ----------------------------------------goa-educational-stack page------------------------------------------------------- */
+
+
+/*-----------------------------------------recruitment page-------------------------------------------------- */
+
+
+.image-recruitment {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+    width: 60%;
+    height: auto;
+}
