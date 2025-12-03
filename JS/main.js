@@ -110,16 +110,45 @@ window.addEventListener('load', function () {
 
 
 // class-vi-regular page - Concept Overview- Scratch Accordion
-const mainPlayer = document.getElementById('mainPlayer');
-const thumbnails = document.querySelectorAll('.thumb-wrapper');
+// const mainPlayer = document.getElementById('mainPlayer');
+// const thumbnails = document.querySelectorAll('.thumb-wrapper');
 
-thumbnails.forEach(wrapper => {
-  wrapper.addEventListener('click', () => {
-    const videoId = wrapper.getAttribute('data-video');
-    mainPlayer.src = `https://www.youtube.com/embed/${videoId}`;
+// thumbnails.forEach(wrapper => {
+//   wrapper.addEventListener('click', () => {
+//     const videoId = wrapper.getAttribute('data-video');
+//     mainPlayer.src = `https://www.youtube.com/embed/${videoId}`;
 
     // Update active border
-    thumbnails.forEach(w => w.classList.remove('active'));
-    wrapper.classList.add('active');
+//     thumbnails.forEach(w => w.classList.remove('active'));
+//     wrapper.classList.add('active');
+//   });
+// });
+
+
+
+
+// class-vi-regular page - Concept Overview- Scratch Accordion Dynamic youtube video
+
+// For each thumbnail group
+document.querySelectorAll('.thumb-group').forEach(group => {
+  
+  // Get the player for this group
+  const playerId = group.dataset.player;
+  const mainPlayer = document.getElementById(playerId);
+
+  // Get thumbnails inside this group
+  const thumbnails = group.querySelectorAll('.thumb-wrapper');
+
+  thumbnails.forEach(wrapper => {
+    wrapper.addEventListener('click', () => {
+      const videoId = wrapper.dataset.video;
+
+      // Change video
+      mainPlayer.src = `https://www.youtube.com/embed/${videoId}`;
+
+      // Active border only in this group
+      thumbnails.forEach(t => t.classList.remove('active'));
+      wrapper.classList.add('active');
+    });
   });
 });
