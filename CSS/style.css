@@ -130,6 +130,12 @@ p {
     text-align: center;
 }
 
+/* li */
+li {
+    font-family: var(--primary-font);
+    font-size: 18px;
+    font-weight: 500;
+}
 
 
 
@@ -138,10 +144,11 @@ p {
 
 .commonspace-header {
     margin-top: 280px;
+    padding: 0px 100px 0px 100px;
 }
 
 .commonspace-footer {
-    margin-bottom: 280px;
+    margin-bottom: 150px;
 }
 
 
@@ -182,7 +189,7 @@ p {
 
 
 .common-accordin-mlr {
-    padding: 10%;
+    padding: 5%;
 }
 
 
@@ -358,7 +365,10 @@ p {
 
 
 
-
+.dropdown-menu {
+    max-height: 400px;
+    overflow-y: auto;
+}
 
 
 
@@ -744,7 +754,7 @@ p {
     margin-bottom: 10px;
     padding: 30px 10px 30px 40px;
     /*  top | right | bottom | left */
-    background: #fff;
+    background: #FFFFFF;
     box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
     flex-wrap: wrap;
 }
@@ -970,11 +980,6 @@ p {
 /*------------------------------------------------- About Us - About-Scheme Page ---------------------------------------------------------------- */
 
 
-.abt-page {
-    margin-top: 70px;
-}
-
-
 .btn-abt-pdf a {
     display: inline-block;
     border-radius: 5px;
@@ -1024,9 +1029,7 @@ p {
 /*------------------------------------------------- About Us - know-our-team Page ---------------------------------------------------------------- */
 
 
-.committee-sec {
-    margin-bottom: 200px;
-}
+
 
 .committee-title {
     font-family: var(--primary-font);
@@ -1390,15 +1393,6 @@ p {
 /*-----------------------------------------recruitment page-------------------------------------------------- */
 
 
-/* .image-recruitment {
-    display: block;
-  margin-left: auto;
-  margin-right: auto;
-    width: 80%;
-    height: auto;
-    
-} */
-
 
 .image-recruitment {
 
@@ -1418,3 +1412,55 @@ p {
 .circulars-orders-mlr {
     padding: 10%;
 }
+
+
+
+
+/* ----------------------contact-us-page----------------------- */
+
+/* Top Section Layout */
+.map-contact-wrapper {
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+}
+
+.map-box {
+    flex: 1.2;
+}
+
+.contact-details {
+    flex: 1;
+    text-align: center;
+}
+
+
+/* Divider Line */
+.divider {
+    margin: 30px 0;
+    border: none;
+    border-top: 2px solid #ccc;
+}
+
+/* Query Boxes */
+.queries-container {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.query-box h2 {
+    font-size: 26px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+
+/* Timing */
+.timing {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+}
+

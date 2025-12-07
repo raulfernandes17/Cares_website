@@ -10,27 +10,22 @@
     }
 }
 
-@media (max-width:1400px) {
-
+@media (max-width: 1400px) {
 
     /*  Class-vi-Regular page*/
     .Accordion-Class-vi-Regular {
         padding: 20px 50px 20px 50px;
     }
-
-
-
 }
 
-
 /* xl 1024 */
-@media (max-width:1024px) {
+@media (max-width: 1024px) 
+{
 
     /* Banner Section */
     .banner_wrapper .carousel-slider1 {
         width: 420px;
         margin-top: 80px;
-
     }
 
     .banner_wrapper .custom-slider1 img {
@@ -40,13 +35,11 @@
         object-fit: cover;
     }
 
-
     /* card */
 
     .banner_wrapper .banner-card {
         width: 42%;
     }
-
 
     /* owl carsoule left right icon */
     .owl-prev,
@@ -54,29 +47,17 @@
         top: 170px;
     }
 
-
     /*  Class-vi-Regular page*/
     .Accordion-Class-vi-Regular {
         padding: 20px 50px 20px 50px;
-       
     }
 
-
-
-
-    
-
     /*------------------ About Us - About-Scheme Page ----------------------------*/
-
 
     /* .abt-page { */
     /* margin-left: 50px; */
     /* margin-right: 50px; */
     /* } */
-
-
-
-
 
     /* Card Section 21St Century*/
 
@@ -91,9 +72,6 @@
         width: 100%;
     }
 
-
-
-
     /* -------------------------------------------------Resources Ourevents coding-and-robotics-competition-------------------------------------------------------------------- */
 
     .goa-codes-2025 .img-goa-codes-2025 {
@@ -104,20 +82,7 @@
     }
 
 
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
 
 /* navbar container menu defult css changed */
 @media (min-width: 992px) {
@@ -126,24 +91,14 @@
         justify-content: flex-start !important;
     }
 
-
     /* gallery of cares */
     .modal-dialog-gallery {
         max-width: 80%;
     }
 }
 
-
-
-
-
-
-
-
-
 /* large */
-@media (max-width:991px) {
-
+@media (max-width: 991px) {
     /* heading tag h1,h2... */
 
     h1 {
@@ -165,29 +120,20 @@
         margin-bottom: 15px;
     }
 
-
     /* Banner Section */
     .banner_wrapper {
         padding: 300px 0px 200px 0px;
-
     }
 
     /* card */
     .banner_wrapper .banner-card {
         top: 200px;
-
     }
-
-
 }
-
-
-
-
 
 /* medium */
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
 
     /* heading tag h1,h2... */
     h1 {
@@ -196,15 +142,12 @@
 
     h3 {
         font-size: 36px;
-
     }
 
     /* Banner Section */
     /* .banner_wrapper .img-bk-std {
         display: none;
     } */
-
-
 
     /* slider1 */
 
@@ -221,8 +164,6 @@
         object-fit: contain;
     }
 
-
-
     /* Achievements Section */
 
     .achievements-section {
@@ -230,13 +171,10 @@
         width: 100%;
     }
 
-
     .achievements-section .ac-sc {
         background-color: var(--bg-light-gray);
         padding: 100px 100px 100px 100px;
     }
-
-
 
     /* owl carsoule left right icon */
 
@@ -260,8 +198,6 @@
         right: -70px;
     }
 
-
-
     /* Card  21st Century Section */
 
     .card-21st-century .font-card-21 {
@@ -281,9 +217,6 @@
         margin: 0 auto;
     }
 
-
-
-
     /* Footer Section */
 
     .container,
@@ -292,16 +225,11 @@
         max-width: 800px !important;
     }
 
-
-
-
     /* owl post page pmu-all-set-to-launch-class-viii-revised-ict*/
 
     .masonry-img-gallery {
         column-count: 2;
     }
-
-
 
     /* class-vi-regular-page  Concept Overview- Scratch youtube video*/
     .video-container-scratch {
@@ -325,16 +253,19 @@
         height: 100px;
         /* fixed height for small screens */
     }
+
+    /* contact-us-page */
+        .map-contact-wrapper {
+        flex-direction: column;
+    }
+
+    .queries-container {
+        flex-direction: column;
+        gap: 20px;
+    }
 }
 
-
-
-
-
-
-
-
-@media (max-width:767px) {
+@media (max-width: 767px) {
 
     /* Banner Section */
     .banner_wrapper {
@@ -345,12 +276,8 @@
     .banner_wrapper .banner-card {
         top: 180px;
         margin-right: 10%;
-
     }
-
 }
-
-
 
 /* pmu-all-set-to-launch-class-viii-revised-ict post page */
 @media (max-width: 576px) {
@@ -363,17 +290,12 @@
     }
 }
 
-
-
-
-
-@media (max-width:425px) {
-
+@media (max-width: 425px) {
     h1 {
         font-size: 30px;
         line-height: 40px;
         padding-top: 25px;
-        line-height: 60PX;
+        line-height: 60px;
     }
 
     h2 {
@@ -390,8 +312,6 @@
         height: 1250px;
     }
 
-
-
     /* slider1 */
 
     .banner_wrapper .carousel-slider1 {
@@ -400,9 +320,6 @@
         object-fit: cover;
     }
 
-
-
-
     /* card */
     .banner_wrapper .banner-card {
         position: absolute;
@@ -410,16 +327,11 @@
         width: 90%;
     }
 
-
-
-
     /* about section button*/
     .achievements-section .cards-achev-algin {
         margin-bottom: 40px;
         width: 100%;
     }
-
-
 
     /* Achievements Section- */
 
@@ -432,11 +344,9 @@
         padding: 60px 50px 50px;
     }
 
-
     .owl-dots {
         display: none;
     }
-
 
     /* owl carsoule left right icon */
 
@@ -461,7 +371,6 @@
         top: 20%;
         left: 40%;
         width: 100%;
-
     }
 
     .btn-close {
@@ -473,19 +382,15 @@
         font-size: 20px;
     }
 
-
-
     /* Card  21st Century Section */
     .card-21st-century .card-21 {
         height: 400px;
         width: 100%;
-
     }
 
     .card-21st-century .font-card-21 {
         font-size: 35px;
     }
-
 
     /* margin top all section 425 viewport */
 
@@ -500,8 +405,6 @@
         margin-left: 10px !important;
     }
 
-
-
     /* class-vi-regular-page  Concept Overview- Scratch youtube video*/
     .thumb-wrapper {
         flex: 1 1 100%;
@@ -509,30 +412,36 @@
     }
 
     .main-video {
-    flex: 1 1 65%;
-    min-width: 200px;
+        flex: 1 1 65%;
+        min-width: 200px;
+    }
+
+    .commonspace-header {
+        padding: 0px 0px 0px 0px;
+    }
 }
 
 
-}
 
 
 
-
-
-@media (max-width:426px) {
+@media (max-width: 426px) {
     .banner_wrapper .banner-card {
         position: absolute;
         top: 180px;
         width: 90%;
     }
-
 }
 
 
 
+
+
+
+
 /* Responsive: Very small (320px) */
-@media screen and (max-width: 320px), screen and (max-width: 375px) {
+@media screen and (max-width: 320px),
+screen and (max-width: 375px) {
     .video-container-scratch {
         gap: 8px;
     }
@@ -555,20 +464,19 @@
     .Accordion-Class-vi-Regular {
         padding: 0px 0px 0px 0px;
     }
+
     .main-video {
+        min-width: 180px;
+    }
 
-    min-width: 180px;
-}
+    /*-----------------------------------------recruitment page-------------------------------------------------- */
 
-
-/*-----------------------------------------recruitment page-------------------------------------------------- */
-
-.image-recruitment {
-    display: block;
-  margin-left: auto;
-  margin-right: auto;
-    width: 100%;
-    height: auto;
-}
-
+    .image-recruitment {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        height: auto;
+    }
+    
 }
