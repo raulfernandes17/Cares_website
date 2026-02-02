@@ -254,14 +254,15 @@
         /* fixed height for small screens */
     }
 
-    /* contact-us-page */
-        .map-contact-wrapper {
-        flex-direction: column;
-    }
-
+  
     .queries-container {
         flex-direction: column;
         gap: 20px;
+    }
+
+    /* contact us page google map */
+    .map-contact-wrapper{
+        text-align: center;
     }
 }
 

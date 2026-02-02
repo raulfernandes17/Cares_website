@@ -82,7 +82,7 @@ function openModal(imgElement) {
 
 // menu / header section
 window.addEventListener('load', function () {
-  fetch('../partials/header.html') // Adjust the path
+  fetch('../../Partials/header.html') // Adjust the path
     .then(response => response.text())
     .then(data => {
       console.log(data)
@@ -98,7 +98,7 @@ window.addEventListener('load', function () {
 
 // footer section
 window.addEventListener('load', function () {
-  fetch('../partials/footer.html') // Adjust the path
+  fetch('../../Partials/footer.html') // Adjust the path
     .then(response => response.text())
     .then(data => {
       console.log(data)
