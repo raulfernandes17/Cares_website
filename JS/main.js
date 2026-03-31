@@ -109,29 +109,25 @@ window.addEventListener('load', function () {
 });
 
 
-// class-vi-regular page - Concept Overview- Scratch Accordion
-// const mainPlayer = document.getElementById('mainPlayer');
-// const thumbnails = document.querySelectorAll('.thumb-wrapper');
 
-// thumbnails.forEach(wrapper => {
-//   wrapper.addEventListener('click', () => {
-//     const videoId = wrapper.getAttribute('data-video');
-//     mainPlayer.src = `https://www.youtube.com/embed/${videoId}`;
+// products page
+window.addEventListener('load', function () {
+  fetch('../../Partials/products.html')
+    .then(response => response.text())
+    .then(data => {
+      console.log(data)
+      document.getElementById('products-developed').innerHTML = data;
+    })
+    .catch(error => console.error("Error loading the footer:", error));
 
-    // Update active border
-//     thumbnails.forEach(w => w.classList.remove('active'));
-//     wrapper.classList.add('active');
-//   });
-// });
-
-
+});
 
 
 // class-vi-regular page - Concept Overview- Scratch Accordion Dynamic youtube video
 
 // For each thumbnail group
 document.querySelectorAll('.thumb-group').forEach(group => {
-  
+
   // Get the player for this group
   const playerId = group.dataset.player;
   const mainPlayer = document.getElementById(playerId);
@@ -152,3 +148,149 @@ document.querySelectorAll('.thumb-group').forEach(group => {
     });
   });
 });
+
+
+
+// competition-model page {owl carousel / model}
+
+document.addEventListener("DOMContentLoaded", function () {
+
+  const folder = "/images/uploads/2023/11/";
+  const images = [
+    "CompetationModel-Day-1.jpg",
+    "CompetationModel-Day-4.jpg",
+    "CompetationModel-Day-5.jpg",
+    "CompetationModel-StateLevel-1.jpg",
+    "CompetationModel-StateLevel-2.jpg",
+    "CompetationModel-StateLevel-3.jpg",
+  ];
+
+  const carousel = document.getElementById("competition-gallery");
+
+  // Create carousel
+  images.forEach(img => {
+    carousel.innerHTML += `<div class="item"><img src="${folder + img}"></div>`;
+  });
+
+  // Owl init
+  $("#competition-gallery").owlCarousel({
+    items: 1,
+    loop: true,
+    nav: true,
+    dots: false,
+    autoplay: true,
+    navText: [
+      "<i class='fa fa-caret-left'></i>",
+      "<i class='fa fa-caret-right'></i>"
+    ]
+  });
+
+  // Modal
+  const modal = new bootstrap.Modal(document.getElementById('imageModal-competition'));
+
+  // Click image → open modal
+  document.querySelectorAll('.competition-model-img').forEach((img, index) => {
+    img.addEventListener('click', () => {
+      modal.show();
+      $('#competition-gallery').trigger('to.owl.carousel', [index, 300]);
+    });
+  });
+
+  // Reset zoom on slide change
+  $('#competition-gallery').on('changed.owl.carousel', function () {
+    zoomed = false;
+    document.querySelectorAll('#competition-gallery img').forEach(img => {
+      img.style.transform = "scale(1)";
+    });
+  });
+
+});
+
+
+// Zoom function
+let zoomed = false;
+
+function zoomImage() {
+
+  // Get active item from BOTH galleries
+  const activeItem = document.querySelector(
+    '#competition-gallery .owl-item.active, #teacher-training-model-gallery .owl-item.active'
+  );
+
+  if (!activeItem) return;
+
+  const img = activeItem.querySelector('img');
+  if (!img) return;
+
+  img.style.transform = zoomed ? "scale(1)" : "scale(1.8)";
+  img.style.transition = "0.3s";
+
+  zoomed = !zoomed;
+}
+
+
+
+
+// teacher-training-model
+
+
+document.addEventListener("DOMContentLoaded", function () {
+
+  const folder = "/images/uploads/2023/11/";
+  const images = [
+    // Teacher Training Model Gallery
+    "TrainingModel-CARES.jpg",
+    "TrainingModel-CARES-1.jpg",
+    "TrainingModel-CARES-2.jpg",
+    "TrainingModel-CARES-3.jpg",
+    "TrainingModel-CARES-4.jpg",
+    "TrainingModel-CARES-5.jpg",
+    "TrainingModel-CARES-6.jpg",
+    "TrainingModel-CARES-7.jpg",
+
+
+  ];
+
+  const carousel = document.getElementById("teacher-training-model-gallery");
+
+  // Create carousel
+  images.forEach(img => {
+    carousel.innerHTML += `<div class="item"><img src="${folder + img}"></div>`;
+  });
+
+  // Owl init
+  $("#teacher-training-model-gallery").owlCarousel({
+    items: 1,
+    loop: true,
+    nav: true,
+    dots: false,
+    autoplay: true,
+    navText: [
+      "<i class='fa fa-caret-left'></i>",
+      "<i class='fa fa-caret-right'></i>"
+    ]
+  });
+
+  // Modal
+  const modal = new bootstrap.Modal(document.getElementById('training-model-gallery'));
+
+  // Click image → open modal
+  document.querySelectorAll('.competition-model-img').forEach((img, index) => {
+    img.addEventListener('click', () => {
+      modal.show();
+      $('#teacher-training-model-gallery').trigger('to.owl.carousel', [index, 300]);
+    });
+  });
+
+  // Reset zoom on slide change
+  $('#teacher-training-model-gallery').on('changed.owl.carousel', function () {
+    zoomed = false;
+    document.querySelectorAll('#teacher-training-model-gallery img').forEach(img => {
+      img.style.transform = "scale(1)";
+    });
+  });
+
+});
+
+
+

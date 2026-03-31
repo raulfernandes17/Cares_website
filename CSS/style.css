@@ -49,6 +49,20 @@ a {
 }
 
 
+/* a href color change to gray circularoder page*/
+.ul-font li a{
+    font-family: var(--primary-font);
+    font-size: 18px;
+    font-weight: 500;
+  color: var(--secondary-text-color);
+    text-decoration: none;
+   
+}
+.ul-font li{
+ margin-bottom: 10px;
+   color: var(--secondary-text-color);
+}
+
 
 
 
@@ -911,6 +925,7 @@ li {
     font-size: 16px;
     font-weight: 400;
     color: #FFFFFF !important;
+    text-decoration: none;
 }
 
 
@@ -998,7 +1013,7 @@ li {
     margin-top: -10px;
     margin-bottom: 20px;
     font-family: var(--primary-font);
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 400;
     color: var(--secondary-text-color);
 }
@@ -1464,3 +1479,27 @@ li {
     margin-top: 20px;
 }
 
+
+/* -------------------------------competition-model--------------------------------------------------- */
+
+.competition-model-img{
+      height: 100%;
+      width: 100%;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.modal-xl {
+    max-width: 95%;   /* almost full screen */
+}
+
+.modal-body {
+    padding: 10px;
+}
+
+/* ---------------------------prerna-ems---------------------------------------- */
+
+.assets-video-ems {
+    width: 100%;
+    height: auto;
+}

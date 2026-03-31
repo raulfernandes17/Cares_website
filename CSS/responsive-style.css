@@ -263,7 +263,23 @@
     /* contact us page google map */
     .map-contact-wrapper{
         text-align: center;
+        flex-direction: column; 
     }
+
+    .map-box,
+    .contact-details {
+        width: 100%;
+    }
+
+    .map-box {
+        order: 1;  /* First */
+    }
+
+    .contact-details {
+        order: 2;  /* Second */
+    }
+
+
 }
 
 @media (max-width: 767px) {
