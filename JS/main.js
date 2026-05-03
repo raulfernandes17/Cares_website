@@ -123,6 +123,51 @@ window.addEventListener('load', function () {
 });
 
 
+
+
+
+// circulars-and-orders
+window.addEventListener('load', function () {
+
+  const years = [
+    {
+      id: 'circulars-orders-AY-2025-2026',
+      file: './circulars-and-orders/circulars-academic-year-2025-2026.html'
+    },
+    {
+      id: 'circulars-orders-AY-2024-2025',
+      file: './circulars-and-orders/circulars-academic-year-2024-2025.html'
+    },
+    {
+      id: 'circulars-orders-AY-2023-2024',
+      file: './circulars-and-orders/circulars-academic-year-2023-2024.html'
+    },
+    {
+      id: 'circulars-orders-AY-2022-2023',
+      file: './circulars-and-orders/circulars-academic-year-2022-2023.html'
+    },
+    {
+      id: 'circulars-orders-AY-2021-2022',
+      file: './circulars-and-orders/circulars-academic-year-2021-2022.html'
+    }
+  ];
+
+  years.forEach(item => {
+    fetch(item.file)
+      .then(response => response.text())
+      .then(data => {
+        const container = document.getElementById(item.id);
+        if (container) {
+          container.innerHTML = data;
+        }
+      })
+      .catch(error => console.error(`Error loading ${item.file}:`, error));
+  });
+
+});
+
+
+
 // class-vi-regular page - Concept Overview- Scratch Accordion Dynamic youtube video
 
 // For each thumbnail group
@@ -214,7 +259,7 @@ function zoomImage() {
 
   // Get active item from BOTH galleries
   const activeItem = document.querySelector(
-    '#competition-gallery .owl-item.active, #teacher-training-model-gallery .owl-item.active'
+    '#competition-gallery .owl-item.active, #teacher-training-model-gallery .owl-item.active, #ai-ml-extension-gallery .owl-item.active'
   );
 
   if (!activeItem) return;
@@ -294,3 +339,94 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 
+
+
+
+// ai-ml-extension page {owl carousel / model}
+
+document.addEventListener("DOMContentLoaded", function () {
+
+  const folder = "/images/uploads/2023/11/";
+  const images = [
+    "AI-ML-Extension-1.jpg",
+    "AI-ML-Extension-2.jpg",
+    "AI-ML-Extension-3.jpg",
+  ];
+
+  const carousel = document.getElementById("ai-ml-extension-gallery");
+
+  // Create carousel
+  images.forEach(img => {
+    carousel.innerHTML += `<div class="item"><img src="${folder + img}"></div>`;
+  });
+
+  // Owl init
+  $("#ai-ml-extension-gallery").owlCarousel({
+    items: 1,
+    loop: true,
+    nav: true,
+    dots: false,
+    autoplay: true,
+    navText: [
+      "<i class='fa fa-caret-left'></i>",
+      "<i class='fa fa-caret-right'></i>"
+    ]
+  });
+
+  // Modal
+  const modal = new bootstrap.Modal(document.getElementById('ai-ml-Modal-extension'));
+
+  // Click image → open modal
+  document.querySelectorAll('.competition-model-img').forEach((img, index) => {
+    img.addEventListener('click', () => {
+      modal.show();
+      $('#ai-ml-extension-gallery').trigger('to.owl.carousel', [index, 300]);
+    });
+  });
+
+  // Reset zoom on slide change
+  $('#ai-ml-extension-gallery').on('changed.owl.carousel', function () {
+    zoomed = false;
+    document.querySelectorAll('#ai-ml-extension-gallery img').forEach(img => {
+      img.style.transform = "scale(1)";
+    });
+  });
+
+});
+
+
+
+
+
+// image open in modal
+document.addEventListener("DOMContentLoaded", function () {
+
+  const links = document.querySelectorAll(".open-image");
+  const modalImg = document.getElementById("modalImage-circulars-and-orders");
+
+  links.forEach(link => {
+    link.addEventListener("click", function (e) {
+      e.preventDefault();
+
+      const imgSrc = this.getAttribute("href");
+      modalImg.src = imgSrc;
+
+      const modal = new bootstrap.Modal(document.getElementById('imageModal-zoom-circulars-orders'));
+      modal.show();
+    });
+  });
+
+  let zoomed = false;
+
+  modalImg.addEventListener("click", function () {
+    if (!zoomed) {
+      this.style.transform = "scale(2)";
+      this.style.cursor = "zoom-out";
+    } else {
+      this.style.transform = "scale(1)";
+      this.style.cursor = "zoom-in";
+    }
+    zoomed = !zoomed;
+  });
+
+});
