@@ -72,12 +72,31 @@ navBar.forEach(function (a) {
 
 
 // onclick openModal carsoul img
-function openModal(imgElement) {
-  const modalImageslider = document.getElementById("modalImageslider");
-  modalImageslider.src = imgElement.src;  // Set modal image source to clicked image's source
-  const imageModalCarousel = new bootstrap.Modal(document.getElementById('imageModalCarousel'));
-  imageModalCarousel.show();
+// function openModal(imgElement) {
+//   const modalImageslider = document.getElementById("modalImageslider");
+//   modalImageslider.src = imgElement.src;  // Set modal image source to clicked image's source
+//   const imageModalCarousel = new bootstrap.Modal(document.getElementById('imageModalCarousel'));
+//   imageModalCarousel.show();
+// }
+
+// modal carousel home page
+function openModal(img) {
+  let modal = new bootstrap.Modal(document.getElementById('imageModalCarousel'));
+  modal.show();
+
+  // Get index of clicked image
+  let items = document.querySelectorAll('#carouselslidercontrols .carousel-item img');
+  let index = [...items].indexOf(img);
+
+  let modalItems = document.querySelectorAll('#modalCarousel .carousel-item');
+
+  modalItems.forEach(item => item.classList.remove('active'));
+  modalItems[index].classList.add('active');
 }
+
+
+
+
 
 
 // menu / header section
@@ -397,36 +416,63 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 
+//
 
-// image open in modal
-document.addEventListener("DOMContentLoaded", function () {
+fetch('./JS/achievment/db.json')   // 👈 your file name
+  .then(response => response.json())
+  .then(data => {
 
-  const links = document.querySelectorAll(".open-image");
-  const modalImg = document.getElementById("modalImage-circulars-and-orders");
+    const container = document.getElementById('cards-container');
 
-  links.forEach(link => {
-    link.addEventListener("click", function (e) {
-      e.preventDefault();
+    // Optional: sort latest first
+    data.cards.sort((a, b) => new Date(b.date) - new Date(a.date));
 
-      const imgSrc = this.getAttribute("href");
-      modalImg.src = imgSrc;
+    data.cards.forEach(card => {
 
-      const modal = new bootstrap.Modal(document.getElementById('imageModal-zoom-circulars-orders'));
-      modal.show();
+      const cardHTML = `
+
+
+        <div class="col-md-4 col-lg-3 mb-4">
+  <div class="card cards-achev-algin h-100 shadow-sm">
+
+    <a href="${card.link}" style="text-decoration: none; color: inherit;">
+
+      <img src="${card.image}" style="width:100%" class="card-img-top" alt="${card.title}">
+
+      <div class="card-body">
+
+        <div class="d-flex justify-content-between align-items-center mb-2">
+          <span class="badge bg-danger">${card.badge}</span>
+        </div>
+
+        <h5 class="card-title">${card.title}</h5>
+
+        <div class="d-flex align-items-center mb-2 mt-4">
+          <span class="text-muted me-auto">${card.source}</span>
+          <small class="text-muted ms-3">${card.date}</small>
+        </div>
+
+            <a href="${card.link}" class="btn btn-sm btn-outline-primary mt-auto">
+        Read More
+      </a>
+
+      </div>
+
+    </a>
+
+  </div>
+</div>
+
+
+
+      `;
+
+
+      container.innerHTML += cardHTML;
+
     });
-  });
 
-  let zoomed = false;
+  })
+  .catch(error => console.error('Error loading JSON:', error));
 
-  modalImg.addEventListener("click", function () {
-    if (!zoomed) {
-      this.style.transform = "scale(2)";
-      this.style.cursor = "zoom-out";
-    } else {
-      this.style.transform = "scale(1)";
-      this.style.cursor = "zoom-in";
-    }
-    zoomed = !zoomed;
-  });
 
-});

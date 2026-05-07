@@ -139,10 +139,20 @@ p {
     font-size: 16px;
     font-family: var(--secondary-font);
     color: white;
-    text-decoration: none;
     border: none;
     text-align: center;
 }
+
+.btn-main,
+.btn-main:link,
+.btn-main:visited,
+.btn-main:hover,
+.btn-main:active {
+    text-decoration: none;
+    color: white;
+}
+
+
 
 /* li */
 li {
@@ -522,7 +532,7 @@ li {
 }
 
 
-/* carsoel Modal */
+/* carsoel Modal (btn-close  common class for all the popup/modal) */
 .modal-body {
     position: relative;
 }
@@ -532,6 +542,10 @@ li {
     top: 10px;
     right: 10px;
     z-index: 10051;
+    background-color: var(--bg-light-gray);
+}
+.btn-close:hover {
+    background-color: var(--secondry-color);
 }
 
 
@@ -1497,8 +1511,8 @@ li {
 }
 
 .modal-xl {
-    max-width: 95%;   /* almost full screen */
-}
+    max-width: 95%;  /* almost full screen */
+} 
 
 .modal-body {
     padding: 10px;

@@ -2,7 +2,7 @@ window.addEventListener('load', function () {
   fetch('./JS/achievment/db.json')
     .then(response => response.json())
     .then(data => {
-      const container = document.getElementById('card-container');
+      const container = document.getElementById('card-container-latest-post');
       container.innerHTML = ''; // Clear any placeholders
 
       data.cards.forEach(card => {
@@ -28,10 +28,10 @@ window.addEventListener('load', function () {
       });
 
       // ✅ Initialize Owl Carousel after cards are added
-      $('#card-container').owlCarousel({
+      $('#card-container-latest-post').owlCarousel({
         loop: false,
         nav: true,
-        dots: true,
+        dots: false,
         margin: 40,
         navText: [
           "<i class='fa fa-caret-left'></i>",
